@@ -1,0 +1,32 @@
+2026-10-26: 10:26:03: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-26: 10:26:38: User Login: 
+2026-10-26: 10:28:09: Gantry_04_OP110 AxisX
+Indexer is not connected.
+Update Setting: Get Robot position
+Please connect to the indexer first before continuing
+Error Code: 28
+2026-10-26: 10:28:12: Gantry_04_OP110 AxisX
+Indexer is not connected.
+Update Setting: Get Robot position
+Please connect to the indexer first before continuing
+Error Code: 28
+2026-10-26: 10:56:46: Gantry_04_OP110 AxisX
+Indexer is not connected.
+Update Setting: Get Robot position
+Please connect to the indexer first before continuing
+Error Code: 28
+2026-10-26: 10:56:49: Gantry_04_OP110 AxisX
+Indexer is not connected.
+Update Setting: Get Robot position
+Please connect to the indexer first before continuing
+Error Code: 28
+2026-10-26: 10:56:50: Gantry_04_OP110 AxisX
+Indexer is not connected.
+Update Setting: Get Robot position
+Please connect to the indexer first before continuing
+Error Code: 28
+2026-10-26: 10:56:55: Axis X
+
+Jogging X Negative
+
+Error Code: 0

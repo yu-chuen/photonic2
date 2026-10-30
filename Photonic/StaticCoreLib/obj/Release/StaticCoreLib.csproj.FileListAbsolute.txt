@@ -1,0 +1,243 @@
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_PC2\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_PC2\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_PC2\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_PC2\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_PC2\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_PC2\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_PC2\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson X597 SOP\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson X597 SOP\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597 SOP\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597 SOP\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson X597 SOP\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson X597 SOP\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson X597 SOP\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597 SOP\Dyson_X597_SOP_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200826\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200826\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200826\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200826\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200826\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200826\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200826\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200826\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200827\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200827\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200827\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200827\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200827\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200827\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200827\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200827\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200828\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200828\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200828\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200828\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200828\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200828\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200828\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200828\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200904\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200904\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200904\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200904\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200904\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200904\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200904\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200907\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200907\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200907\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200907\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200907\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200907\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200907\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200910\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200910\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200910\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200910\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200910\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200910\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200910\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200910\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200911\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200911\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200911\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200911\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200911\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200911\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200911\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200911\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597 SOP\PC2_PC3\Dyson_X597_SOP_SOLSTAT_20200917_V2\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson X597 SOP\PC2_PC3\Dyson_X597_SOP_SOLSTAT_20200917_V2\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597 SOP\PC2_PC3\Dyson_X597_SOP_SOLSTAT_20200917_V2\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597 SOP\PC2_PC3\Dyson_X597_SOP_SOLSTAT_20200917_V2\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson X597 SOP\PC2_PC3\Dyson_X597_SOP_SOLSTAT_20200917_V2\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson X597 SOP\PC2_PC3\Dyson_X597_SOP_SOLSTAT_20200917_V2\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597 SOP\PC2_PC3\Dyson_X597_SOP_SOLSTAT_20200917_V2\Dyson_X597_SOP_SOLSTAT_20200917_V1\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200918\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200918\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200918\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200918\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200918\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200918\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200918\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT_20200918\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20200922\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20200922\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20200922\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20200922\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20200922\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20200922\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20200922\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20200922\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\temp 20201002\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\temp 20201002\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\temp 20201002\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\temp 20201002\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\temp 20201002\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\temp 20201002\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\temp 20201002\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\temp 20201002\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson X597 ZoneA&B new IO\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson X597 ZoneA&B new IO\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597 ZoneA&B new IO\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597 ZoneA&B new IO\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson X597 ZoneA&B new IO\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson X597 ZoneA&B new IO\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson X597 ZoneA&B new IO\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597 ZoneA&B new IO\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20201229 (new IO)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20201229 (new IO)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20201229 (new IO)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20201229 (new IO)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20201229 (new IO)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20201229 (new IO)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20201229 (new IO)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20201229 (new IO)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.MessageBox_OP85_VisionResult.resources
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\ResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\GenerateResource.read.1.tlog
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\GenerateResource.write.1.tlog
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20220205\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20220205\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20220205\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20220205\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\ResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20220205\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.MessageBox_OP85_VisionResult.resources
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20220205\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20220205\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\GenerateResource.read.1.tlog
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20220205\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\GenerateResource.write.1.tlog
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20220205\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20220205\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230104\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230104\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230104\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230104\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\ResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230104\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.MessageBox_OP85_VisionResult.resources
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230104\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230104\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\GenerateResource.read.1.tlog
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230104\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\GenerateResource.write.1.tlog
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230104\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson X597\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230104\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\hmloo\Desktop\Bosch\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230801 (solder position)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.AssemblyReference.cache
+C:\Users\hmloo\Desktop\Bosch\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230801 (solder position)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.MessageBox_OP85_VisionResult.resources
+C:\Users\hmloo\Desktop\Bosch\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230801 (solder position)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\hmloo\Desktop\Bosch\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230801 (solder position)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.cache
+C:\Users\hmloo\Desktop\Bosch\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230801 (solder position)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.csproj.CoreCompileInputs.cache
+C:\Users\hmloo\Desktop\Bosch\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230801 (solder position)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\hmloo\Desktop\Bosch\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230801 (solder position)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\hmloo\Desktop\Bosch\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230801 (solder position)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\hmloo\Desktop\Bosch\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230801 (solder position)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\hmloo\Desktop\Bosch\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230801 (solder position)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.csproj.AssemblyReference.cache
+C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.MessageBox_OP85_VisionResult.resources
+C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.cache
+C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.csproj.CoreCompileInputs.cache
+C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.pdb

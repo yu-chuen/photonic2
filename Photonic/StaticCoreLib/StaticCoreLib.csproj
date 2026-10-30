@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5239F39C-51DA-4746-85E6-151D8954AD24}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StaticCoreLib</RootNamespace>
+    <AssemblyName>StaticCoreLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Comm_Serial\CommSerial_WireTester_Hioki.cs" />
+    <Compile Include="Comm_Serial\Comm_Serial_Thermocouple.cs" />
+    <Compile Include="Comm_Serial\Comm_Serial_KeyanceIL.cs" />
+    <Compile Include="Com_TCP\Comm_TCP_IFM_RFID.cs" />
+    <Compile Include="Com_TCP\Comm_TCP_KeyenceGT2.cs" />
+    <Compile Include="Com_TCP\Server_COMTCP_GT_CentralPC.cs" />
+    <Compile Include="Data Class\Data_Instruction.cs" />
+    <Compile Include="Data Class\Data_PerStation_DownTime.cs" />
+    <Compile Include="Data Class\Data_UnitTempStorage.cs" />
+    <Compile Include="Data Class\Data_ErrorMessage.cs" />
+    <Compile Include="Data Class\ErrorTable.cs" />
+    <Compile Include="Indexer N Robots\Adlink Motion Library\APS168.cs" />
+    <Compile Include="Indexer N Robots\Adlink Motion Library\APS168_Ethercat_PCIcard.cs" />
+    <Compile Include="Indexer N Robots\Adlink Motion Library\APS_Define.cs" />
+    <Compile Include="Indexer N Robots\PanasonicECAT\RobotXY_APSlib_PanasonicECAT.cs" />
+    <Compile Include="Indexer N Robots\PanasonicECAT\Indexer_APSlib_PanasonicECAT.cs" />
+    <Compile Include="Indexer N Robots\PanasonicECAT\RobotXYZ_APSlib_PanasonicECAT.cs" />
+    <Compile Include="Indexer N Robots\INDEXER_Interface.cs" />
+    <Compile Include="Indexer N Robots\ROBOTSTATION_Interface.cs" />
+    <Compile Include="Indexer N Robots\Stepper_Settings.cs" />
+    <Compile Include="Comm_Serial\Comm_Serial.cs" />
+    <Compile Include="Com_TCP\Comm_TCP.cs" />
+    <Compile Include="Data Class\Data_Indexer.cs" />
+    <Compile Include="Data Class\Data_Robot.cs" />
+    <Compile Include="IO Cards\PCI7432\Dask.cs" />
+    <Compile Include="IO Cards\PCI7432\PCI7432.cs" />
+    <Compile Include="IO Cards\PCI7856\HSL16DI16DO.cs" />
+    <Compile Include="IO Cards\PCI7856\MNET4XMO.cs" />
+    <Compile Include="IO Cards\PCI7856\PCI7856.cs" />
+    <Compile Include="MachineInfo.cs" />
+    <Compile Include="Data Class\Data_PackageFile.cs" />
+    <Compile Include="MessageBox_Custom\MessageBox_OP85_VisionResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBox_Custom\MessageBox_OP85_VisionResult.Designer.cs">
+      <DependentUpon>MessageBox_OP85_VisionResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Module_OP100_Buffer.cs" />
+    <Compile Include="Modules\Module_FwdConv.cs" />
+    <Compile Include="Modules\Module_OP110_HotBlower.cs" />
+    <Compile Include="Modules\Module_OP100_Station.cs" />
+    <Compile Include="Peripherals\SupportFunctions.cs" />
+    <Compile Include="Peripherals\ViewModel_HotBlower.cs" />
+    <Compile Include="Peripherals\MessageBox_Triggers.cs" />
+    <Compile Include="Password.cs" />
+    <Compile Include="IO Cards\PCI7853\HSL.cs" />
+    <Compile Include="IO Cards\PCI7853\HSL32DI32DO_7853.cs" />
+    <Compile Include="IO Cards\PCI7853\HSL_Motion.cs" />
+    <Compile Include="IO Cards\PCI7853\PCI7853.cs" />
+    <Compile Include="IO Cards\PCI7853\Stepper_7853.cs" />
+    <Compile Include="IO Cards\Cylinder.cs" />
+    <Compile Include="Log_Data.cs" />
+    <Compile Include="IO Cards\InputBit.cs" />
+    <Compile Include="InterfaceCards.cs" />
+    <Compile Include="Modules\Module_ControlPanel.cs" />
+    <Compile Include="Modules\MonitorInput.cs" />
+    <Compile Include="IO Cards\MyIPort.cs" />
+    <Compile Include="IO Cards\MyOPort.cs" />
+    <Compile Include="IO Cards\OutputBit.cs" />
+    <Compile Include="Peripherals\ViewModel_GotoFunctions.cs" />
+    <Compile Include="Peripherals\ViewModel_Vision.cs" />
+    <Compile Include="Peripherals\ViewModel_Vision_Keyence.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="IO Cards\Sensor.cs" />
+    <Compile Include="SeqMachineControl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Peripherals\ViewModel_Interlock.cs" />
+    <Compile Include="VersionInfo.cs" />
+    <Compile Include="Vision System\Vision_Keyence.cs" />
+    <Compile Include="Vision System\Vision_Cognex.cs" />
+    <Compile Include="Watch_Timers.cs" />
+    <Compile Include="Peripherals\XMLSerializer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MessageBox_Custom\MessageBox_OP85_VisionResult.resx">
+      <DependentUpon>MessageBox_OP85_VisionResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Indexer N Robots\Epson_SCARA_Robot\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

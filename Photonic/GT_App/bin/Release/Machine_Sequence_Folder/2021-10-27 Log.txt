@@ -1,0 +1,29 @@
+2021-10-27: 11:28:33: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (26 October 2021) OFFLINE MODE
+2021-10-27: 11:28:37: User Login: 
+2021-10-27: 11:28:44: ChangeProcessFlag activity Logger: Test Mode OP85 Only Activated
+2021-10-27: 11:28:46: ChangeProcessFlag activity Logger: Test Mode OP85 Only Deactivated
+2021-10-27: 11:28:46: ChangeProcessFlag activity Logger: Test Mode OP85 Only Activated
+2021-10-27: 11:28:47: ChangeProcessFlag activity Logger: Test Mode OP85 Only Deactivated
+2021-10-27: 11:28:48: ChangeProcessFlag activity Logger: Test Mode OP85 Only Activated
+2021-10-27: 11:28:49: ChangeProcessFlag activity Logger: Test Mode OP85 Only Deactivated
+2021-10-27: 11:28:49: ChangeProcessFlag activity Logger: Test Mode OP85 Only Activated
+2021-10-27: 11:28:50: ChangeProcessFlag activity Logger: Test Mode OP85 Only Deactivated
+2021-10-27: 11:28:54: *** END OF APPLICATION ***
+2021-10-27: 11:29:14: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (26 October 2021) OFFLINE MODE
+2021-10-27: 11:29:18: *** END OF APPLICATION ***
+2021-10-27: 11:29:32: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (26 October 2021) OFFLINE MODE
+2021-10-27: 11:29:36: *** END OF APPLICATION ***
+2021-10-27: 11:29:42: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (26 October 2021) OFFLINE MODE
+2021-10-27: 11:29:51: *** END OF APPLICATION ***
+2021-10-27: 13:31:11: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (26 October 2021) OFFLINE MODE
+2021-10-27: 13:35:14: *** END OF APPLICATION ***
+2021-10-27: 12:35:17: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (26 October 2021) OFFLINE MODE
+2021-10-27: 12:35:45: *** END OF APPLICATION ***
+2021-10-27: 13:35:47: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (26 October 2021) OFFLINE MODE
+2021-10-27: 13:35:50: *** END OF APPLICATION ***
+2021-10-27: 13:37:54: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (26 October 2021) OFFLINE MODE
+2021-10-27: 13:38:06: *** END OF APPLICATION ***
+2021-10-27: 13:52:31: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (26 October 2021) OFFLINE MODE
+2021-10-27: 13:56:51: *** END OF APPLICATION ***
+2021-10-27: 14:07:24: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (26 October 2021) OFFLINE MODE
+2021-10-27: 14:09:11: *** END OF APPLICATION ***

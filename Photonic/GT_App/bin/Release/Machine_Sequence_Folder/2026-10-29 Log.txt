@@ -1,0 +1,63 @@
+2026-10-29: 09:50:00: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 09:50:26: *** END OF APPLICATION ***
+2026-10-29: 10:17:22: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 10:17:29: *** END OF APPLICATION ***
+2026-10-29: 10:17:56: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 10:18:01: *** END OF APPLICATION ***
+2026-10-29: 10:20:16: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 10:20:26: *** END OF APPLICATION ***
+2026-10-29: 10:25:00: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 10:25:11: *** END OF APPLICATION ***
+2026-10-29: 10:27:24: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 10:28:26: *** END OF APPLICATION ***
+2026-10-29: 10:28:31: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 10:29:22: *** END OF APPLICATION ***
+2026-10-29: 13:50:50: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 13:51:42: *** END OF APPLICATION ***
+2026-10-29: 13:53:26: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 13:53:30: User Login: 
+2026-10-29: 13:56:06: *** END OF APPLICATION ***
+2026-10-29: 14:08:12: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 14:08:17: *** END OF APPLICATION ***
+2026-10-29: 14:08:18: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 14:08:21: *** END OF APPLICATION ***
+2026-10-29: 14:11:30: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 14:11:53: *** END OF APPLICATION ***
+2026-10-29: 14:12:01: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 14:12:06: User Login: 
+2026-10-29: 14:13:34: *** END OF APPLICATION ***
+2026-10-29: 17:16:39: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 17:18:33: *** END OF APPLICATION ***
+2026-10-29: 17:20:15: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 17:20:23: User Login: 
+2026-10-29: 17:33:49: *** END OF APPLICATION ***
+2026-10-29: 17:33:53: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 17:33:58: User Login: 
+2026-10-29: 17:34:10: *** END OF APPLICATION ***
+2026-10-29: 17:47:03: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 17:47:42: *** END OF APPLICATION ***
+2026-10-29: 17:54:22: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (1 August 2023) OFFLINE MODE
+2026-10-29: 17:54:46: User Login: 
+2026-10-29: 17:55:27: *** START MACHINE INITIALIZATION ***
+2026-10-29: 17:55:50: Module_OP100_Buffer: OP100 - Bridge: 
+
+Module_OP100_Buffer: OP100 - Bridge: 
+
+Error Code: 0
+2026-10-29: 17:55:50: Module_OP110_HotBlower: OP110 - Hot Blower Z-Axis: 
+
+Module_OP110_HotBlower: OP110 - Hot Blower Z-Axis: 
+
+Error Code: 0
+2026-10-29: 17:55:52: Camera_1
+TCP Connection Failure
+Vision: Camera_1: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPAddress address, Int32 port)
+   at StaticCoreLib.Comm_TCP.Connect(String strIPAddress, Int32 iPortNum) in C:\Users\hmloo\Desktop\Bosch\Dyson_X597_SOP_PC2_PC3_SOLSTAT\Dyson_X597_SOP_SOLSTAT_20230801 (solder position)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\Com_TCP\Comm_TCP.cs:line 63
+Please Check the TCP Port via Maintenance page.
+Error Code: 11
+2026-10-29: 17:55:52: *** MACHINE INITIALIZATION FAILED ***
+2026-10-29: 17:58:29: *** END OF APPLICATION ***

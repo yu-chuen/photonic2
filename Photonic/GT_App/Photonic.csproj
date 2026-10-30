@@ -1,0 +1,985 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3523F9AA-DC82-4BA2-BAC5-1187F9668409}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GT_App</RootNamespace>
+    <AssemblyName>Dyson_X597_SOP_SOLSTAT</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Company.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About_Dialog.designer.cs">
+      <DependentUpon>About_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Helper.cs" />
+    <Compile Include="Class_Helper_DisplayMsgBoxes.cs" />
+    <Compile Include="GT_App_MainApp.cs" />
+    <Compile Include="Machine_Settings\COM_Serial\KeyanceIL_Serial_MainDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_Serial\KeyanceIL_Serial_MainDialog.Designer.cs">
+      <DependentUpon>KeyanceIL_Serial_MainDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_Serial\UserCtrl_Serial_KeyanceIL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_Serial\UserCtrl_Serial_KeyanceIL.Designer.cs">
+      <DependentUpon>UserCtrl_Serial_KeyanceIL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_Serial\Thermocople_Serial_MainDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_Serial\Thermocople_Serial_MainDialog.Designer.cs">
+      <DependentUpon>Thermocople_Serial_MainDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_Serial\UserCtrl_SerialPortSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_Serial\UserCtrl_SerialPortSettings.designer.cs">
+      <DependentUpon>UserCtrl_SerialPortSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_Serial\UserCtrl_Serial_Thermocouple.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_Serial\UserCtrl_Serial_Thermocouple.Designer.cs">
+      <DependentUpon>UserCtrl_Serial_Thermocouple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_OP85_Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_OP85_Settings.Designer.cs">
+      <DependentUpon>UserCtrl_OP85_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_Common_Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_Common_Settings.Designer.cs">
+      <DependentUpon>UserCtrl_Common_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\Vision System\UserCtrl_VisionKeyenceSettingsDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\Vision System\UserCtrl_VisionKeyenceSettingsDialog.designer.cs">
+      <DependentUpon>UserCtrl_VisionKeyenceSettingsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\Vision System\Vision_Keyence_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\Vision System\Vision_Keyence_Dialog.designer.cs">
+      <DependentUpon>Vision_Keyence_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\InitializeStations_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\InitializeStations_Dialog.Designer.cs">
+      <DependentUpon>InitializeStations_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Login_AddUser_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\Login_AddUser_Dialog.designer.cs">
+      <DependentUpon>Login_AddUser_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Login_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\Login_Dialog.designer.cs">
+      <DependentUpon>Login_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Login_UserRegister_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\Login_UserRegister_Dialog.designer.cs">
+      <DependentUpon>Login_UserRegister_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\ChangeProcessFlag_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\ChangeProcessFlag_Dialog.designer.cs">
+      <DependentUpon>ChangeProcessFlag_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_TCP\Comm_TCP_IFMRFID_MainDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_TCP\Comm_TCP_IFMRFID_MainDlg.Designer.cs">
+      <DependentUpon>Comm_TCP_IFMRFID_MainDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_TCP\UserCtrl_TCP_IFMRFID_Dlg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_TCP\UserCtrl_TCP_IFMRFID_Dlg.Designer.cs">
+      <DependentUpon>UserCtrl_TCP_IFMRFID_Dlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_TCP\UserCtrl_TCP_SettingPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_TCP\UserCtrl_TCP_SettingPage.designer.cs">
+      <DependentUpon>UserCtrl_TCP_SettingPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\Delay_N_Timeouts\DelayAndTimeOut_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\Delay_N_Timeouts\DelayAndTimeOut_Dialog.designer.cs">
+      <DependentUpon>DelayAndTimeOut_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsCylinderStrip_Dlg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsCylinderStrip_Dlg.designer.cs">
+      <DependentUpon>UserCtrl_DelayNTimeoutsCylinderStrip_Dlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsInterface_Dlg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsInterface_Dlg.designer.cs">
+      <DependentUpon>UserCtrl_DelayNTimeoutsInterface_Dlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsMisc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsMisc.designer.cs">
+      <DependentUpon>UserCtrl_DelayNTimeoutsMisc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsMiscInterface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsMiscInterface.designer.cs">
+      <DependentUpon>UserCtrl_DelayNTimeoutsMiscInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsSensorStrip_Dlg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsSensorStrip_Dlg.designer.cs">
+      <DependentUpon>UserCtrl_DelayNTimeoutsSensorStrip_Dlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\MachineInfo_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\MachineInfo_Dialog.designer.cs">
+      <DependentUpon>MachineInfo_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\Maintenance_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\Maintenance_Dialog.designer.cs">
+      <DependentUpon>Maintenance_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\DefineProductData_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\DefineProductData_Dialog.designer.cs">
+      <DependentUpon>DefineProductData_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\DefineProductSpecs_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\DefineProductSpecs_Dialog.designer.cs">
+      <DependentUpon>DefineProductSpecs_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\SetFilePathDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\SetFilePathDialog.designer.cs">
+      <DependentUpon>SetFilePathDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\Setup_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\Setup_Dialog.designer.cs">
+      <DependentUpon>Setup_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\Vision System\UserCtrl_VisionSettingsDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\Vision System\UserCtrl_VisionSettingsDialog.designer.cs">
+      <DependentUpon>UserCtrl_VisionSettingsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\Vision System\Vision_ControlDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\Vision System\Vision_ControlDialog.designer.cs">
+      <DependentUpon>Vision_ControlDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Dlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Dlg.Designer.cs">
+      <DependentUpon>Main_Dlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StatusStrip_String_Short_Dual.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StatusStrip_String_Short_Dual.Designer.cs">
+      <DependentUpon>UserCtrl_StatusStrip_String_Short_Dual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP85.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP85.Designer.cs">
+      <DependentUpon>UserCtrl_StationStatus_OP85.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StatusStrip_String_Short.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StatusStrip_String_Short.Designer.cs">
+      <DependentUpon>UserCtrl_StatusStrip_String_Short.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP110.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP110.Designer.cs">
+      <DependentUpon>UserCtrl_StationStatus_OP110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP100.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP100.Designer.cs">
+      <DependentUpon>UserCtrl_StationStatus_OP100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP90.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP90.Designer.cs">
+      <DependentUpon>UserCtrl_StationStatus_OP90.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP80.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP80.Designer.cs">
+      <DependentUpon>UserCtrl_StationStatus_OP80.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP70.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP70.Designer.cs">
+      <DependentUpon>UserCtrl_StationStatus_OP70.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP60.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP60.Designer.cs">
+      <DependentUpon>UserCtrl_StationStatus_OP60.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StatusStrip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StatusStrip.Designer.cs">
+      <DependentUpon>UserCtrl_StatusStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_Banner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_Banner.designer.cs">
+      <DependentUpon>UserCtrl_Banner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_InstructionDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_InstructionDialog.Designer.cs">
+      <DependentUpon>UserCtrl_InstructionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_MachineStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_MachineStatus.Designer.cs">
+      <DependentUpon>UserCtrl_MachineStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_ProductionControlDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_ProductionControlDialog.Designer.cs">
+      <DependentUpon>UserCtrl_ProductionControlDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_Report_PerformanceDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_Report_PerformanceDialog.designer.cs">
+      <DependentUpon>UserCtrl_Report_PerformanceDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_Report_ProductInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_Report_ProductInfo.Designer.cs">
+      <DependentUpon>UserCtrl_Report_ProductInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_UI_FlagBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_UI_FlagBox.Designer.cs">
+      <DependentUpon>UserCtrl_UI_FlagBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\Io.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\Io.Designer.cs">
+      <DependentUpon>Io.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_UI_Dual_OutputBit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_UI_Dual_OutputBit.designer.cs">
+      <DependentUpon>UserCtrl_UI_Dual_OutputBit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_Custom_HotBlower.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_Custom_HotBlower.Designer.cs">
+      <DependentUpon>UserCtrl_Custom_HotBlower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_Custom_OP85_VisionTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_Custom_OP85_VisionTest.Designer.cs">
+      <DependentUpon>UserCtrl_Custom_OP85_VisionTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_Custom_OP90_VisionTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_Custom_OP90_VisionTest.Designer.cs">
+      <DependentUpon>UserCtrl_Custom_OP90_VisionTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\Manual_MainDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\Manual_MainDlg.designer.cs">
+      <DependentUpon>Manual_MainDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_UI_Cylinder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_UI_Cylinder.designer.cs">
+      <DependentUpon>UserCtrl_UI_Cylinder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_UI_InputBit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_UI_InputBit.designer.cs">
+      <DependentUpon>UserCtrl_UI_InputBit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_UI_OutputBit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_UI_OutputBit.designer.cs">
+      <DependentUpon>UserCtrl_UI_OutputBit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message_Box_Custom\MessageBox_Confirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Message_Box_Custom\MessageBox_Confirmation.designer.cs">
+      <DependentUpon>MessageBox_Confirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message_Box_Custom\MessageBox_CustomDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Message_Box_Custom\MessageBox_CustomDlg.designer.cs">
+      <DependentUpon>MessageBox_CustomDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message_Box_Custom\MessageBox_CustomDlg_3Inputs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Message_Box_Custom\MessageBox_CustomDlg_3Inputs.designer.cs">
+      <DependentUpon>MessageBox_CustomDlg_3Inputs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message_Box_Custom\MessageBox_InputString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Message_Box_Custom\MessageBox_InputString.designer.cs">
+      <DependentUpon>MessageBox_InputString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message_Box_Custom\MessageBox_InputTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Message_Box_Custom\MessageBox_InputTime.designer.cs">
+      <DependentUpon>MessageBox_InputTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Rework_Dlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Rework_Dlg.Designer.cs">
+      <DependentUpon>Rework_Dlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Machine_Settings\COM_TCP\Server_COMTCP_GT_CentralPC_Dlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\COM_TCP\Server_COMTCP_GT_CentralPC_Dlg.Designer.cs">
+      <DependentUpon>Server_COMTCP_GT_CentralPC_Dlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\StationControl_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\StationControl_Dialog.Designer.cs">
+      <DependentUpon>StationControl_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teach_Indexer_Dialog\Indexer_Module_Teach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teach_Indexer_Dialog\Indexer_Module_Teach.designer.cs">
+      <DependentUpon>Indexer_Module_Teach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teach_Indexer_Dialog\Indexer_SettingPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teach_Indexer_Dialog\Indexer_SettingPage.designer.cs">
+      <DependentUpon>Indexer_SettingPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teach_Indexer_Dialog\UserCtrl_Indexer_Teach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Teach_Indexer_Dialog\UserCtrl_Indexer_Teach.designer.cs">
+      <DependentUpon>UserCtrl_Indexer_Teach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\Robot_Module_Teach_HotBlower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\Robot_Module_Teach_HotBlower.designer.cs">
+      <DependentUpon>Robot_Module_Teach_HotBlower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\RobotSetting_XY_APSLib_PanasonicECAT_Dlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\RobotSetting_XY_APSLib_PanasonicECAT_Dlg.Designer.cs">
+      <DependentUpon>RobotSetting_XY_APSLib_PanasonicECAT_Dlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\UserCtrl_RobotXY_APSLib_PanasonicECAT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\UserCtrl_RobotXY_APSLib_PanasonicECAT.Designer.cs">
+      <DependentUpon>UserCtrl_RobotXY_APSLib_PanasonicECAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\RobotSetting_APSLib_PanasonicECAT_Dlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\RobotSetting_APSLib_PanasonicECAT_Dlg.Designer.cs">
+      <DependentUpon>RobotSetting_APSLib_PanasonicECAT_Dlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\Robot_Module_Teach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\Robot_Module_Teach.designer.cs">
+      <DependentUpon>Robot_Module_Teach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\SafetyWindow_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\SafetyWindow_Dialog.designer.cs">
+      <DependentUpon>SafetyWindow_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\UserCtrl_4Axis_APSLib_ECAT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Teach_Robot_Dialog\UserCtrl_4Axis_APSLib_ECAT.Designer.cs">
+      <DependentUpon>UserCtrl_4Axis_APSLib_ECAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teach_Indexer_Dialog\UserCtrl_Indexer_SettingPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Teach_Indexer_Dialog\UserCtrl_Indexer_SettingPage.Designer.cs">
+      <DependentUpon>UserCtrl_Indexer_SettingPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StatusStrip_String.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StatusStrip_String.Designer.cs">
+      <DependentUpon>UserCtrl_StatusStrip_String.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_RobotStation_Goto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_RobotStation_Goto.Designer.cs">
+      <DependentUpon>UserCtrl_RobotStation_Goto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_ManualPage_Template.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_ManualPage_Template.Designer.cs">
+      <DependentUpon>UserCtrl_ManualPage_Template.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_OP60_OP70_OP80_SolderStation_Settings_Dlg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_OP60_OP70_OP80_SolderStation_Settings_Dlg.Designer.cs">
+      <DependentUpon>UserCtrl_OP60_OP70_OP80_SolderStation_Settings_Dlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_StationControlDlg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main_UI_UserCtrl\UserCtrl_StationControlDlg.Designer.cs">
+      <DependentUpon>UserCtrl_StationControlDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_StationDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_StationDisplay.Designer.cs">
+      <DependentUpon>UserCtrl_StationDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_Custom_GotoSolderPoint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_Custom_GotoSolderPoint.Designer.cs">
+      <DependentUpon>UserCtrl_Custom_GotoSolderPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_OP90_Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_OP90_Settings.Designer.cs">
+      <DependentUpon>UserCtrl_OP90_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_OP110_HotBlower_Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_OP110_HotBlower_Settings.Designer.cs">
+      <DependentUpon>UserCtrl_OP110_HotBlower_Settings.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About_Dialog.resx">
+      <DependentUpon>About_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\COM_Serial\KeyanceIL_Serial_MainDialog.resx">
+      <DependentUpon>KeyanceIL_Serial_MainDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\COM_Serial\UserCtrl_Serial_KeyanceIL.resx">
+      <DependentUpon>UserCtrl_Serial_KeyanceIL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\COM_Serial\Thermocople_Serial_MainDialog.resx">
+      <DependentUpon>Thermocople_Serial_MainDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\COM_Serial\UserCtrl_SerialPortSettings.resx">
+      <DependentUpon>UserCtrl_SerialPortSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\COM_Serial\UserCtrl_Serial_Thermocouple.resx">
+      <DependentUpon>UserCtrl_Serial_Thermocouple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_OP85_Settings.resx">
+      <DependentUpon>UserCtrl_OP85_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_Common_Settings.resx">
+      <DependentUpon>UserCtrl_Common_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_OP60_OP70_OP80_SolderStation_Settings_Dlg.resx">
+      <DependentUpon>UserCtrl_OP60_OP70_OP80_SolderStation_Settings_Dlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_OP90_Settings.resx">
+      <DependentUpon>UserCtrl_OP90_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\Vision System\UserCtrl_VisionKeyenceSettingsDialog.resx">
+      <DependentUpon>UserCtrl_VisionKeyenceSettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\Vision System\Vision_Keyence_Dialog.resx">
+      <DependentUpon>Vision_Keyence_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\InitializeStations_Dialog.resx">
+      <DependentUpon>InitializeStations_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\Login_AddUser_Dialog.resx">
+      <DependentUpon>Login_AddUser_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\Login_Dialog.resx">
+      <DependentUpon>Login_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\Login_UserRegister_Dialog.resx">
+      <DependentUpon>Login_UserRegister_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\ChangeProcessFlag_Dialog.resx">
+      <DependentUpon>ChangeProcessFlag_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\COM_TCP\Comm_TCP_IFMRFID_MainDlg.resx">
+      <DependentUpon>Comm_TCP_IFMRFID_MainDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\COM_TCP\UserCtrl_TCP_IFMRFID_Dlg.resx">
+      <DependentUpon>UserCtrl_TCP_IFMRFID_Dlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\COM_TCP\UserCtrl_TCP_SettingPage.resx">
+      <DependentUpon>UserCtrl_TCP_SettingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\Delay_N_Timeouts\DelayAndTimeOut_Dialog.resx">
+      <DependentUpon>DelayAndTimeOut_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsCylinderStrip_Dlg.resx">
+      <DependentUpon>UserCtrl_DelayNTimeoutsCylinderStrip_Dlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsInterface_Dlg.resx">
+      <DependentUpon>UserCtrl_DelayNTimeoutsInterface_Dlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsMisc.resx">
+      <DependentUpon>UserCtrl_DelayNTimeoutsMisc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsMiscInterface.resx">
+      <DependentUpon>UserCtrl_DelayNTimeoutsMiscInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\Delay_N_Timeouts\UserCtrl_DelayNTimeoutsSensorStrip_Dlg.resx">
+      <DependentUpon>UserCtrl_DelayNTimeoutsSensorStrip_Dlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\MachineInfo_Dialog.resx">
+      <DependentUpon>MachineInfo_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\Maintenance_Dialog.resx">
+      <DependentUpon>Maintenance_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\ProductSpecs_Dialog\DefineProductData_Dialog.resx">
+      <DependentUpon>DefineProductData_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\ProductSpecs_Dialog\DefineProductSpecs_Dialog.resx">
+      <DependentUpon>DefineProductSpecs_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\ProductSpecs_Dialog\SetFilePathDialog.resx">
+      <DependentUpon>SetFilePathDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\Setup_Dialog.resx">
+      <DependentUpon>Setup_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\Vision System\UserCtrl_VisionSettingsDialog.resx">
+      <DependentUpon>UserCtrl_VisionSettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\Vision System\Vision_ControlDialog.resx">
+      <DependentUpon>Vision_ControlDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Dlg.resx">
+      <DependentUpon>Main_Dlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StatusStrip_String_Short_Dual.resx">
+      <DependentUpon>UserCtrl_StatusStrip_String_Short_Dual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP85.resx">
+      <DependentUpon>UserCtrl_StationStatus_OP85.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StatusStrip_String_Short.resx">
+      <DependentUpon>UserCtrl_StatusStrip_String_Short.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP110.resx">
+      <DependentUpon>UserCtrl_StationStatus_OP110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP100.resx">
+      <DependentUpon>UserCtrl_StationStatus_OP100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP90.resx">
+      <DependentUpon>UserCtrl_StationStatus_OP90.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP80.resx">
+      <DependentUpon>UserCtrl_StationStatus_OP80.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP70.resx">
+      <DependentUpon>UserCtrl_StationStatus_OP70.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StationStatus_OP60.resx">
+      <DependentUpon>UserCtrl_StationStatus_OP60.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StatusStrip.resx">
+      <DependentUpon>UserCtrl_StatusStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\UserCtrl_Banner.resx">
+      <DependentUpon>UserCtrl_Banner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\UserCtrl_InstructionDialog.resx">
+      <DependentUpon>UserCtrl_InstructionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\UserCtrl_MachineStatus.resx">
+      <DependentUpon>UserCtrl_MachineStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\UserCtrl_ProductionControlDialog.resx">
+      <DependentUpon>UserCtrl_ProductionControlDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\UserCtrl_Report_PerformanceDialog.resx">
+      <DependentUpon>UserCtrl_Report_PerformanceDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\UserCtrl_Report_ProductInfo.resx">
+      <DependentUpon>UserCtrl_Report_ProductInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\UserCtrl_UI_FlagBox.resx">
+      <DependentUpon>UserCtrl_UI_FlagBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\Io.resx">
+      <DependentUpon>Io.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_UI_Dual_OutputBit.resx">
+      <DependentUpon>UserCtrl_UI_Dual_OutputBit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_Custom_HotBlower.resx">
+      <DependentUpon>UserCtrl_Custom_HotBlower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_Custom_OP85_VisionTest.resx">
+      <DependentUpon>UserCtrl_Custom_OP85_VisionTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_Custom_OP90_VisionTest.resx">
+      <DependentUpon>UserCtrl_Custom_OP90_VisionTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\Manual_MainDlg.resx">
+      <DependentUpon>Manual_MainDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_UI_Cylinder.resx">
+      <DependentUpon>UserCtrl_UI_Cylinder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_UI_InputBit.resx">
+      <DependentUpon>UserCtrl_UI_InputBit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_UI_OutputBit.resx">
+      <DependentUpon>UserCtrl_UI_OutputBit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Message_Box_Custom\MessageBox_Confirmation.resx">
+      <DependentUpon>MessageBox_Confirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Message_Box_Custom\MessageBox_CustomDlg.resx">
+      <DependentUpon>MessageBox_CustomDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Message_Box_Custom\MessageBox_CustomDlg_3Inputs.resx">
+      <DependentUpon>MessageBox_CustomDlg_3Inputs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Message_Box_Custom\MessageBox_InputString.resx">
+      <DependentUpon>MessageBox_InputString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Message_Box_Custom\MessageBox_InputTime.resx">
+      <DependentUpon>MessageBox_InputTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\Rework_Dlg.resx">
+      <DependentUpon>Rework_Dlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Machine_Settings\COM_TCP\Server_COMTCP_GT_CentralPC_Dlg.resx">
+      <DependentUpon>Server_COMTCP_GT_CentralPC_Dlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\StationControl_Dialog.resx">
+      <DependentUpon>StationControl_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teach_Indexer_Dialog\Indexer_Module_Teach.resx">
+      <DependentUpon>Indexer_Module_Teach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teach_Indexer_Dialog\Indexer_SettingPage.resx">
+      <DependentUpon>Indexer_SettingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teach_Indexer_Dialog\UserCtrl_Indexer_Teach.resx">
+      <DependentUpon>UserCtrl_Indexer_Teach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teach_Robot_Dialog\Robot_Module_Teach_HotBlower.resx">
+      <DependentUpon>Robot_Module_Teach_HotBlower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teach_Robot_Dialog\RobotSetting_XY_APSLib_PanasonicECAT_Dlg.resx">
+      <DependentUpon>RobotSetting_XY_APSLib_PanasonicECAT_Dlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teach_Robot_Dialog\UserCtrl_RobotXY_APSLib_PanasonicECAT.resx">
+      <DependentUpon>UserCtrl_RobotXY_APSLib_PanasonicECAT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teach_Robot_Dialog\RobotSetting_APSLib_PanasonicECAT_Dlg.resx">
+      <DependentUpon>RobotSetting_APSLib_PanasonicECAT_Dlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teach_Robot_Dialog\Robot_Module_Teach.resx">
+      <DependentUpon>Robot_Module_Teach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teach_Robot_Dialog\SafetyWindow_Dialog.resx">
+      <DependentUpon>SafetyWindow_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teach_Robot_Dialog\UserCtrl_4Axis_APSLib_ECAT.resx">
+      <DependentUpon>UserCtrl_4Axis_APSLib_ECAT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teach_Indexer_Dialog\UserCtrl_Indexer_SettingPage.resx">
+      <DependentUpon>UserCtrl_Indexer_SettingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\Status_UserCtrl\UserCtrl_StatusStrip_String.resx">
+      <DependentUpon>UserCtrl_StatusStrip_String.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_RobotStation_Goto.resx">
+      <DependentUpon>UserCtrl_RobotStation_Goto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_ManualPage_Template.resx">
+      <DependentUpon>UserCtrl_ManualPage_Template.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_UI_UserCtrl\UserCtrl_StationControlDlg.resx">
+      <DependentUpon>UserCtrl_StationControlDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_StationDisplay.resx">
+      <DependentUpon>UserCtrl_StationDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_Custom_GotoSolderPoint.resx">
+      <DependentUpon>UserCtrl_Custom_GotoSolderPoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine_Settings\ProductSpecs_Dialog\UserCtrl_OP110_HotBlower_Settings.resx">
+      <DependentUpon>UserCtrl_OP110_HotBlower_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StaticCoreLib\StaticCoreLib.csproj">
+      <Project>{5239F39C-51DA-4746-85E6-151D8954AD24}</Project>
+      <Name>StaticCoreLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Company Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CompanyFulllogo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green_Ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_err.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconInfo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red_Ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DysonX308.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue_Arrow_Down.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Genetec Banner.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue_Arrow_Left.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue_Arrow_Right.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue_Arrow_Up.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow_arrow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow_arrow_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow_arrow_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow_arrow_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Company.ico" />
+    <Content Include="Resources\Company.ico" />
+    <None Include="Resources\Genetec MAIN logo Square.png" />
+    <None Include="Resources\Genetec MAIN logo vertical 2.png" />
+    <None Include="Resources\Genetec MAIN logo 1.png" />
+    <None Include="Resources\Genetec MAIN logo 2.png" />
+    <None Include="Resources\Genetec MAIN logo verticle 1.png" />
+    <None Include="Resources\Genetec MAIN logo.png" />
+    <None Include="Resources\Genetec MAIN logo vertical.png" />
+    <None Include="Resources\Dyson_001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

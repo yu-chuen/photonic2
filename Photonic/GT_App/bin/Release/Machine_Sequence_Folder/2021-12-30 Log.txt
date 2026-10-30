@@ -1,0 +1,8 @@
+2021-12-30: 18:19:37: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (13 November 2021) OFFLINE MODE
+2021-12-30: 18:19:46: User Login: 
+2021-12-30: 18:19:50: ChangeProcessFlag activity Logger: Test Mode OP85 Only Activated
+2021-12-30: 18:20:00: *** END OF APPLICATION ***
+2021-12-30: 18:20:35: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (13 November 2021) OFFLINE MODE
+2021-12-30: 18:20:40: User Login: 
+2021-12-30: 18:20:43: ChangeProcessFlag activity Logger: Test Mode OP85 Only Activated
+2021-12-30: 18:20:49: *** END OF APPLICATION ***

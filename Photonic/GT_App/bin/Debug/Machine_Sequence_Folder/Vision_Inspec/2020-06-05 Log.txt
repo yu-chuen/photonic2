@@ -1,0 +1,5 @@
+2020-06-05: 14:01:17: =====> Module_VisionInspection: ErrorID=0 : Device: Clamp Heater : ErrorMsg=Clamp Heater: 
+2020-06-05: 14:01:17: =====> Module_VisionInspection: ErrorID=0 : Device: Clamp Heater : ErrorMsg=Clamp Heater: 
+2020-06-05: 14:01:19: =====> Module_VisionInspection: ErrorID=0 : Device: Clamp Heater : ErrorMsg=Clamp Heater: 
+2020-06-05: 14:01:19: =====> Module_VisionInspection: ErrorID=0 : Device: Clamp Heater : ErrorMsg=Clamp Heater: 
+2020-06-05: 14:01:20: =====> Module_VisionInspection: ErrorID=0 : Device: Clamp Heater : ErrorMsg=Clamp Heater: 

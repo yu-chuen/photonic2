@@ -1,0 +1,8 @@
+2021-11-03: 08:56:31: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (27 October 2021) OFFLINE MODE
+2021-11-03: 08:56:35: User Login: 
+2021-11-03: 08:57:24: Gantry_03_OP80 AxisX
+Indexer is not connected.
+Update Setting: Get Robot position
+Please connect to the indexer first before continuing
+Error Code: 28
+2021-11-03: 09:01:08: *** END OF APPLICATION ***

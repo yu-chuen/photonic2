@@ -1,0 +1,67 @@
+2022-03-09: 04:09:26: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (9 March 2022) OFFLINE MODE
+2022-03-09: 04:10:09: *** END OF APPLICATION ***
+2022-03-09: 04:10:17: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (9 March 2022) OFFLINE MODE
+2022-03-09: 04:10:25: User Login: 
+2022-03-09: 04:10:28: ChangeProcessFlag activity Logger: Test Mode OP85 Only Activated
+2022-03-09: 04:10:29: ChangeProcessFlag activity Logger: Test Mode OP85 Only Deactivated
+2022-03-09: 04:10:30: ChangeProcessFlag activity Logger: Test Mode OP85 Only Activated
+2022-03-09: 04:10:31: ChangeProcessFlag activity Logger: Test Mode OP85 Only Deactivated
+2022-03-09: 04:10:31: ChangeProcessFlag activity Logger: Test Mode OP85 Only Activated
+2022-03-09: 04:10:32: ChangeProcessFlag activity Logger: Test Mode OP85 Only Deactivated
+2022-03-09: 04:10:41: *** END OF APPLICATION ***
+2022-03-09: 06:22:31: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (9 March 2022) OFFLINE MODE
+2022-03-09: 06:22:35: User Login: 
+2022-03-09: 06:22:40: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:22:41: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:22:42: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:22:43: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:23:36: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:23:37: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:23:38: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:23:38: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:23:39: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:23:39: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:23:40: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:23:41: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:23:42: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:23:45: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:23:45: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:23:46: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:23:49: *** END OF APPLICATION ***
+2022-03-09: 06:54:10: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (9 March 2022) OFFLINE MODE
+2022-03-09: 06:54:13: User Login: 
+2022-03-09: 06:54:16: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:54:18: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:54:18: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:54:19: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:54:20: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:54:20: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:54:20: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:54:20: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:54:21: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:54:21: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:54:25: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:54:27: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:55:18: *** END OF APPLICATION ***
+2022-03-09: 06:56:26: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (9 March 2022) OFFLINE MODE
+2022-03-09: 06:56:38: User Login: 
+2022-03-09: 06:56:41: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:56:41: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:56:42: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:56:42: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:56:43: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:56:43: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:56:43: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:56:44: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:56:44: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:56:45: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:56:45: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:56:46: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:57:05: *** END OF APPLICATION ***
+2022-03-09: 06:57:08: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (9 March 2022) OFFLINE MODE
+2022-03-09: 06:57:11: User Login: 
+2022-03-09: 06:57:13: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Activated
+2022-03-09: 06:57:14: ChangeProcessFlag activity Logger: Bypass OP110 Auto PNP Spring Comb Jig Deactivated
+2022-03-09: 06:57:32: *** END OF APPLICATION ***
+2022-03-09: 06:58:23: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (9 March 2022) OFFLINE MODE
+2022-03-09: 06:58:28: *** END OF APPLICATION ***

@@ -1,0 +1,123 @@
+C:\Users\jkyong\Desktop\C# project\Core\StaticCoreLib\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Core\StaticCoreLib\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Core\StaticCoreLib\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Core\StaticCoreLib\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Core\StaticCoreLib\StaticCoreLib\obj\Debug\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\StaticCoreLib\obj\Debug\StaticCoreLib.Form_ErrorMessageDlg.resources
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\StaticCoreLib\obj\Debug\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X556\Dyson_X556_LaserMarker\StaticCoreLib\obj\Debug\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Core\Core\StaticCoreLib\obj\Debug\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# application\Core\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# application\Core\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# application\Core\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# application\Core\StaticCoreLib\obj\Debug\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# application\Core\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# application\Core\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# application\Core\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# application\Core\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# application\Bosch_HybridBondingBlower\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# application\Bosch_HybridBondingBlower\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# application\Bosch_HybridBondingBlower\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# application\Bosch_HybridBondingBlower\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# application\Bosch_HybridBondingBlower\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# application\Bosch_HybridBondingBlower\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# application\Bosch_HybridBondingBlower\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# application\Bosch_HybridBondingBlower\StaticCoreLib\obj\Debug\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# application\Joseph\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# application\Joseph\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# application\Joseph\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# application\Joseph\StaticCoreLib\obj\Debug\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# application\Joseph\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# application\Joseph\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# application\Joseph\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# application\Joseph\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Bosch_HybridBondingBlower\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\StaticCoreLib\bin\Debug\AsiDrvClass.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\StaticCoreLib\obj\Debug\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core\StaticCoreLib\obj\Debug\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core - Copy\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core - Copy\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core - Copy\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core - Copy\StaticCoreLib\obj\Debug\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core - Copy\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core - Copy\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core - Copy\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\GT_APP Core - Copy\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\WorkStation\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\temp 20201002 (offset)\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Debug\StaticCoreLib.dll.config
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\bin\Debug\StaticCoreLib.pdb
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.csprojResolveAssemblyReference.cache
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.Properties.Resources.resources
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.csproj.GenerateResource.Cache
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.dll
+C:\Users\jkyong\Desktop\test\Dyson_X597_SOP_SOLSTAT\StaticCoreLib\obj\Debug\StaticCoreLib.pdb

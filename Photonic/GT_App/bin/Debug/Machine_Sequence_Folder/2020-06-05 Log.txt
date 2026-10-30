@@ -1,0 +1,64 @@
+2020-06-05: 08:59:55: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 09:00:00: *** END OF APPLICATION ***
+2020-06-05: 10:59:55: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 11:00:06: *** END OF APPLICATION ***
+2020-06-05: 11:04:13: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 11:04:19: *** END OF APPLICATION ***
+2020-06-05: 11:09:54: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 11:10:20: *** END OF APPLICATION ***
+2020-06-05: 11:15:35: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 11:16:17: Stop Button Pressed.
+2020-06-05: 11:16:17: Stop Button Pressed.
+2020-06-05: 11:16:19: *** END OF APPLICATION ***
+2020-06-05: 12:15:21: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 12:17:38: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 12:17:49: *** END OF APPLICATION ***
+2020-06-05: 13:02:16: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 13:02:24: *** END OF APPLICATION ***
+2020-06-05: 13:08:58: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 13:09:07: *** END OF APPLICATION ***
+2020-06-05: 13:22:48: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 13:22:55: *** END OF APPLICATION ***
+2020-06-05: 13:23:27: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 13:23:33: *** END OF APPLICATION ***
+2020-06-05: 13:24:11: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 13:24:27: *** END OF APPLICATION ***
+2020-06-05: 13:26:46: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 13:27:05: *** END OF APPLICATION ***
+2020-06-05: 13:28:52: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 13:29:08: *** END OF APPLICATION ***
+2020-06-05: 13:29:46: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 13:30:03: *** END OF APPLICATION ***
+2020-06-05: 13:31:59: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 13:32:59: *** END OF APPLICATION ***
+2020-06-05: 13:47:30: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 13:47:56: *** END OF APPLICATION ***
+2020-06-05: 14:01:07: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 14:01:18: =====> Module_OP100: ErrorID=0 : Device: ManualStation : ErrorMsg=System.Net.Sockets.SocketException (0x80004005): A socket operation was attempted to an unreachable host 192.168.0.79:33000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPAddress address, Int32 port)
+   at StaticCoreLib.Comm_TCP.Connect(String strIPAddress, Int32 iPortNum) in C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\Com_TCP\Comm_TCP.cs:line 63
+2020-06-05: 14:01:19: =====> Module_OP110n120_Conv: ErrorID=0 : Device: ManualStation : ErrorMsg=System.Net.Sockets.SocketException (0x80004005): A socket operation was attempted to an unreachable host 192.168.0.79:33000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPAddress address, Int32 port)
+   at StaticCoreLib.Comm_TCP.Connect(String strIPAddress, Int32 iPortNum) in C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\Com_TCP\Comm_TCP.cs:line 63
+2020-06-05: 14:01:19: =====> Module_OP100: ErrorID=0 : Device: ManualStation : ErrorMsg=System.Net.Sockets.SocketException (0x80004005): A socket operation was attempted to an unreachable host 192.168.0.79:33000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPAddress address, Int32 port)
+   at StaticCoreLib.Comm_TCP.Connect(String strIPAddress, Int32 iPortNum) in C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\Com_TCP\Comm_TCP.cs:line 63
+2020-06-05: 14:01:20: =====> Module_OP100: ErrorID=0 : Device: ManualStation : ErrorMsg=System.Net.Sockets.SocketException (0x80004005): A socket operation was attempted to an unreachable host 192.168.0.79:33000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPAddress address, Int32 port)
+   at StaticCoreLib.Comm_TCP.Connect(String strIPAddress, Int32 iPortNum) in C:\Users\jkyong\Desktop\C# project\Dyson_X597\DysonX597_SOP_PC2\StaticCoreLib\Com_TCP\Comm_TCP.cs:line 63
+2020-06-05: 14:06:54: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 14:07:16: *** END OF APPLICATION ***
+2020-06-05: 14:14:09: *** START OF APPLICATION ***1.0.0.1_Beta001
+2020-06-05: 14:14:20: *** END OF APPLICATION ***

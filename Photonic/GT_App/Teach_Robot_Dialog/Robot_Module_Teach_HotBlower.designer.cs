@@ -1,0 +1,109 @@
+﻿namespace GT_App
+{
+    partial class Robot_Module_Teach_HotBlower
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.tabctrl_MotorPg = new System.Windows.Forms.TabControl();
+            this.btn_ESC = new System.Windows.Forms.Button();
+            this.m_Timer = new System.Windows.Forms.Timer(this.components);
+            this.btn_KeyPressEnable = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // tabctrl_MotorPg
+            // 
+            this.tabctrl_MotorPg.Alignment = System.Windows.Forms.TabAlignment.Bottom;
+            this.tabctrl_MotorPg.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabctrl_MotorPg.ItemSize = new System.Drawing.Size(250, 50);
+            this.tabctrl_MotorPg.Location = new System.Drawing.Point(0, 0);
+            this.tabctrl_MotorPg.Name = "tabctrl_MotorPg";
+            this.tabctrl_MotorPg.SelectedIndex = 0;
+            this.tabctrl_MotorPg.Size = new System.Drawing.Size(1306, 630);
+            this.tabctrl_MotorPg.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.tabctrl_MotorPg.TabIndex = 0;
+            this.tabctrl_MotorPg.SelectedIndexChanged += new System.EventHandler(this.tabctrl_MotorPg_SelectedIndexChanged);
+            this.tabctrl_MotorPg.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tabctrl_MotorPg_KeyDown);
+            // 
+            // btn_ESC
+            // 
+            this.btn_ESC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_ESC.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btn_ESC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ESC.Location = new System.Drawing.Point(1132, 576);
+            this.btn_ESC.Name = "btn_ESC";
+            this.btn_ESC.Size = new System.Drawing.Size(175, 55);
+            this.btn_ESC.TabIndex = 11;
+            this.btn_ESC.Text = "ESC";
+            this.btn_ESC.UseVisualStyleBackColor = true;
+            this.btn_ESC.Click += new System.EventHandler(this.btn_ESC_Click);
+            // 
+            // m_Timer
+            // 
+            this.m_Timer.Interval = 500;
+            this.m_Timer.Tick += new System.EventHandler(this.OnTimer);
+            // 
+            // btn_KeyPressEnable
+            // 
+            this.btn_KeyPressEnable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_KeyPressEnable.Location = new System.Drawing.Point(1132, 530);
+            this.btn_KeyPressEnable.Name = "btn_KeyPressEnable";
+            this.btn_KeyPressEnable.Size = new System.Drawing.Size(175, 40);
+            this.btn_KeyPressEnable.TabIndex = 12;
+            this.btn_KeyPressEnable.Text = "Key Press Disabled";
+            this.btn_KeyPressEnable.UseVisualStyleBackColor = true;
+            this.btn_KeyPressEnable.Click += new System.EventHandler(this.btn_KeyPressEnable_Click);
+            // 
+            // Robot_Module_Teach_HotBlower
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btn_ESC;
+            this.ClientSize = new System.Drawing.Size(1306, 630);
+            this.ControlBox = false;
+            this.Controls.Add(this.btn_KeyPressEnable);
+            this.Controls.Add(this.btn_ESC);
+            this.Controls.Add(this.tabctrl_MotorPg);
+            this.Name = "Robot_Module_Teach_HotBlower";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Robot Module Teaching Page";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Robot_Module_Teach_FormClosing);
+            this.Load += new System.EventHandler(this.Robot_Module_Teach_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Robot_Module_Teach_KeyDown);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TabControl tabctrl_MotorPg;
+        private System.Windows.Forms.Button btn_ESC;
+		private System.Windows.Forms.Timer m_Timer;
+        private System.Windows.Forms.Button btn_KeyPressEnable;
+    }
+}

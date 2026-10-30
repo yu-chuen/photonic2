@@ -1,0 +1,2 @@
+2021-04-23: 17:15:29: =====> Module_OP110_HotBlower_Conv: ErrorID=102 : Device: OP110 - Fin Protector Present : ErrorMsg=: ErrorName=SENSOR_TRIGGERED_ERR
+2021-04-23: 17:36:20: =====> Module_OP110_HotBlower_Conv: ErrorID=102 : Device: OP110 - Fin Protector Present : ErrorMsg=: ErrorName=SENSOR_TRIGGERED_ERR

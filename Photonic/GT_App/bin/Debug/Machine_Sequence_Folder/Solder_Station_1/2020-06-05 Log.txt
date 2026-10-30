@@ -1,0 +1,3 @@
+2020-06-05: 14:01:17: =====> Module_SolderStation: [1]: ErrorID=23 : Device: Gantry_01 : ErrorMsg=Gantry_01 AxisX
+2020-06-05: 14:01:19: =====> Module_SolderStation: [1]: ErrorID=23 : Device: Gantry_01 : ErrorMsg=Gantry_01 AxisX
+2020-06-05: 14:01:19: =====> Module_SolderStation: [1]: ErrorID=23 : Device: Gantry_01 : ErrorMsg=Gantry_01 AxisX

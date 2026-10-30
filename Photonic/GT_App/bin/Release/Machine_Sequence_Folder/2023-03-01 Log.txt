@@ -1,0 +1,2 @@
+2023-03-01: 23:58:38: *** START OF APPLICATION *** Version 0.0.0.0_beta0 (28 February 2023) OFFLINE MODE
+2023-03-01: 23:58:43: User Login: 
