@@ -1,0 +1,13 @@
+# Visual Studio temporary & cache files
+.vs/
+*.vsidx
+*.suo
+*.wsuo
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+
+# Log files
+*.log
+*.txt

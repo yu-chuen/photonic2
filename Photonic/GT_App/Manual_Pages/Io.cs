@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
 
@@ -122,6 +123,46 @@ namespace GT_App
             }
         }
 
+        private static MyIPort PortOf(InputBit b)
+        {
+            return (MyIPort)typeof(InputBit)
+                .GetField("m_IPort").GetValue(b);
+        }
+        private static MyOPort PortOf(OutputBit b)
+        {
+            return (MyOPort)typeof(OutputBit)
+                .GetField("m_OPort").GetValue(b);
+        }
+
+        private void Collect
+            (object module,
+                Dictionary<MyIPort, List<InputBit>> ins,
+                Dictionary<MyOPort, List<OutputBit>> outs
+            )
+        {
+            foreach (var f in module.GetType().GetFields())
+            {
+                object v = f.GetValue(module);
+                if (v == null) continue;
+
+                if (v is InputBit)
+                {
+                    var p = PortOf((InputBit)v);
+                    //if (p == null) continue;
+                    if (!ins.ContainsKey(p)) ins[p] = new List<InputBit>();
+                    ins[p].Add((InputBit)v);
+                    // ins[4] = [Safety Relay (bit 2), EStop - OP90 (bit 3)] 
+                }
+                else if (v is OutputBit)
+                {
+                    var p = PortOf((OutputBit)v);
+                    //if (p == null) continue;
+                    if (!outs.ContainsKey(p)) outs[p] = new List<OutputBit>();
+                    outs[p].Add((OutputBit)v);
+                }
+            }
+        }
+
 
         public void Add_UserCtrl()
         {
@@ -176,6 +217,14 @@ namespace GT_App
 
             Add_TabPage("IO 2", iCount);
             #endregion
+
+            //Add testing------------------------------------------------------------------------------
+            iCount++;
+            var ins = new Dictionary<MyIPort, List<InputBit>>();
+            var outs = new Dictionary<MyOPort, List<OutputBit>>();
+            Collect(m_pSeqMachineCtrl.m_Module_ControlPanel, ins, outs);
+
+            Add_TabPage("IO 3", iCount);
 
             //Add OP100------------------------------------------------------------------------------
             iCount++;
