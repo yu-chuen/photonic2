@@ -81,7 +81,6 @@ namespace StaticCoreLib
 
             //input--------------------------------------------------------------------------------------------------------------------
             iBitID = 0;		m_pInAirPressure_UL						= new InputBit(mInterface.Get_InputPort(1), iBitID, "Air Pressure Upper Limit (NC)");
-            iBitID = 0;		m_pInAirPressure_UL						= new InputBit(mInterface.Get_InputPort(1), iBitID, "Air Pressure Upper Limit (NC)");
             iBitID = 1;		m_pInAirPressure_LL						= new InputBit(mInterface.Get_InputPort(1), iBitID, "Air Pressure Lower Limit (NO)");
             iBitID = 2;		m_pInSafetyRelay						= new InputBit(mInterface.Get_InputPort(4), iBitID, "Safety Relay");
             iBitID = 3;		m_pInEStopButton						= new InputBit(mInterface.Get_InputPort(4), iBitID, "EStop - OP90");

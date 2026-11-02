@@ -126,12 +126,12 @@ namespace GT_App
         private static MyIPort PortOf(InputBit b)
         {
             return (MyIPort)typeof(InputBit)
-                .GetField("m_IPort").GetValue(b);
+                .GetField("m_IPort", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(b);
         }
         private static MyOPort PortOf(OutputBit b)
         {
             return (MyOPort)typeof(OutputBit)
-                .GetField("m_OPort").GetValue(b);
+                .GetField("m_OPort", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(b);
         }
 
         private void Collect
@@ -151,7 +151,8 @@ namespace GT_App
                     //if (p == null) continue;
                     if (!ins.ContainsKey(p)) ins[p] = new List<InputBit>();
                     ins[p].Add((InputBit)v);
-                    // ins[4] = [Safety Relay (bit 2), EStop - OP90 (bit 3)] 
+                    // ins[4] = {[Safety Relay (bit 2), EStop - OP90 (bit 3)]}
+                    // ins = { 4: [Safety Relay (bit 2), EStop - OP90 (bit 3)]}
                 }
                 else if (v is OutputBit)
                 {
@@ -219,12 +220,58 @@ namespace GT_App
             #endregion
 
             //Add testing------------------------------------------------------------------------------
-            iCount++;
+            #region IO by port
             var ins = new Dictionary<MyIPort, List<InputBit>>();
             var outs = new Dictionary<MyOPort, List<OutputBit>>();
-            Collect(m_pSeqMachineCtrl.m_Module_ControlPanel, ins, outs);
 
-            Add_TabPage("IO 3", iCount);
+            object[] modules =
+            {
+                m_pSeqMachineCtrl.m_Module_ControlPanel,
+            };
+
+            foreach (var m in modules)
+                if (m != null) Collect(m, ins, outs);
+
+            // 1) find each port's number: ask InterfaceCards for 1, 2, 3 ... and match the object
+            var ic = m_pSeqMachineCtrl.m_InterfaceCards;
+            var inNo = new Dictionary<MyIPort, int>();
+            var outNo = new Dictionary<MyOPort, int>();
+
+            for (int n = 1; inNo.Count < ins.Count && n <= 16; n++)
+            {
+                var p = ic.Get_InputPort(n);
+                if (p != null && ins.ContainsKey(p) && !inNo.ContainsKey(p)) inNo[p] = n;
+            }
+
+            for (int n = 1; outNo.Count < outs.Count && n <= 32; n++)
+            {
+                var p = ic.Get_OutputPort(n);
+                if (p != null && outs.ContainsKey(p) && !outNo.ContainsKey(p)) outNo[p] = n;
+            }
+
+            // 2) one tab per port number
+            var portNums = new SortedSet<int>(inNo.Values);
+            portNums.UnionWith(outNo.Values);
+
+            foreach (int n in portNums)
+            {
+                if (!inNo.ContainsValue(n)) continue;   // template needs at least 1 input on a page (see note)
+
+                iCount++;                               // next page index
+                m_list_TabPage.Add(new TabPage());
+                m_list_userctrl_manualPage.Add(new UserCtrl_ManualPage_Template());
+
+                foreach (var kv in inNo.Where(k => k.Value == n))
+                    foreach (var b in ins[kv.Key].OrderBy(x => x.m_iBitID))
+                        m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(b);
+
+                foreach (var kv in outNo.Where(k => k.Value == n))
+                    foreach (var b in outs[kv.Key].OrderBy(x => x.m_iBitID))
+                        m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(b);
+
+                Add_TabPage("Port " + n, iCount);
+            }
+            #endregion
 
             //Add OP100------------------------------------------------------------------------------
             iCount++;

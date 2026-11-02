@@ -241,3 +241,13 @@ C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\obj\Release\StaticCor
 C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.csproj.CoreCompileInputs.cache
 C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.dll
 C:\Users\ycleong\Documents\Photonic\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.pdb
+C:\Users\ycleong\Documents\photonic2\Photonic\StaticCoreLib\bin\Release\StaticCoreLib.dll.config
+C:\Users\ycleong\Documents\photonic2\Photonic\StaticCoreLib\bin\Release\StaticCoreLib.dll
+C:\Users\ycleong\Documents\photonic2\Photonic\StaticCoreLib\bin\Release\StaticCoreLib.pdb
+C:\Users\ycleong\Documents\photonic2\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.csproj.AssemblyReference.cache
+C:\Users\ycleong\Documents\photonic2\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.MessageBox_OP85_VisionResult.resources
+C:\Users\ycleong\Documents\photonic2\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.Properties.Resources.resources
+C:\Users\ycleong\Documents\photonic2\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.csproj.GenerateResource.cache
+C:\Users\ycleong\Documents\photonic2\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.csproj.CoreCompileInputs.cache
+C:\Users\ycleong\Documents\photonic2\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.dll
+C:\Users\ycleong\Documents\photonic2\Photonic\StaticCoreLib\obj\Release\StaticCoreLib.pdb
