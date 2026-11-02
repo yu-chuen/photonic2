@@ -151,12 +151,14 @@ namespace GT_App
 
             bool bEnable = false;
 
+            btn_ManualMode.Enabled = true; // testing purpose 
+
             //set var
             if (Login_OK == true) { bEnable = true; }
 
             //Update related buttons
             btn_Maintenance.Enabled = bEnable;
-            btn_ManualMode.Enabled = bEnable;
+            //btn_ManualMode.Enabled = bEnable;
 
             //if (Main_Dlg.Get_UserLevel().Contains("admin"))
             //{

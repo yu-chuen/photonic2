@@ -189,13 +189,13 @@
             this.btn_About.Name = "btn_About";
             this.btn_About.Size = new System.Drawing.Size(162, 53);
             this.btn_About.TabIndex = 2;
-            this.btn_About.Text = "About123";
+            this.btn_About.Text = "About";
             this.btn_About.UseVisualStyleBackColor = false;
             this.btn_About.Click += new System.EventHandler(this.btn_About_Click);
             // 
             // UserCtrl_InstructionDialog
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.groupBox1);

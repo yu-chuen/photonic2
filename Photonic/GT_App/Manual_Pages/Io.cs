@@ -104,6 +104,23 @@ namespace GT_App
             this.tabctrl_IO.TabPages.Add(m_list_TabPage[iCount]);
         }
 
+        private void Add_AllIO(UserCtrl_ManualPage_Template page, object module)
+        {
+            //var fields = module.GetType().GetFields(
+            //    System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Instance);
+
+            var fields = module.GetType().GetFields();
+
+            foreach (var f in fields)
+            {
+                object v = f.GetValue(module);
+                if (v == null) continue;                       // not created on this machine type
+
+                if (v is Sensor || v is InputBit) page.Add_UserCtrlInput(v as dynamic);
+                else if (v is OutputBit) page.Add_UserCtrlOutput(v as OutputBit);
+                else if (v is Cylinder) page.Add_UserCtrlCylinder(v as Cylinder);
+            }
+        }
 
 
         public void Add_UserCtrl()
@@ -132,6 +149,7 @@ namespace GT_App
             m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_ControlPanel.m_inpKeySwitch);
             m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_ControlPanel.m_inpKeySwitch1);
 
+            // DO
             m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_ControlPanel.m_pOutTowerLightRed_Static);
             m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_ControlPanel.m_pOutTowerLightYellow_Static);
             m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_ControlPanel.m_pOutTowerLightGreen_Static);
@@ -145,10 +163,20 @@ namespace GT_App
             m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_ControlPanel.m_pOutDoorLock_HotBlowerStation);
             m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_ControlPanel.m_pOutDoorLock_VisionStation);
 
-            Add_TabPage("Control Panel", iCount);
+            Add_TabPage("IO 1", iCount);
             #endregion
 
-            
+            //Add testing------------------------------------------------------------------------------
+            iCount++;
+            #region IO2
+            m_list_TabPage.Add(new TabPage());
+            m_list_userctrl_manualPage.Add(new UserCtrl_ManualPage_Template());
+
+            Add_AllIO(m_list_userctrl_manualPage[iCount], m_pSeqMachineCtrl.m_Module_ControlPanel);
+
+            Add_TabPage("IO 2", iCount);
+            #endregion
+
             //Add OP100------------------------------------------------------------------------------
             iCount++;
             #region OP100
@@ -168,15 +196,7 @@ namespace GT_App
             m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_outIndicatorLight_Red);
             m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_outIndicatorLight_Green);
 
-            //if (m_pSeqMachineCtrl.m_DataUnit.MachineTypeNum_i == 1)
-            //{
-            //    m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_inpButton_Run);
-            //    m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_inpButton_Stop);
-            //    m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_inpBridgePlungerLocked);
-            //    m_list_userctrl_manualPage[iCount].Add_UserCtrlCylinder(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_cylBridge_LockUnlock);
-            //}
-
-            //m_list_userctrl_manualPage[iCount].Add_UserCtrl_OP90();
+           
 
             Add_TabPage("Manual\r\n(OP100)", iCount);
             #endregion
