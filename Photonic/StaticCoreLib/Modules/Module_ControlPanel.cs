@@ -97,16 +97,16 @@ namespace StaticCoreLib
             iBitID = 12;		m_inpDoorLock_VisionStation				= new InputBit(mInterface.Get_InputPort(4), iBitID, "Door Lock - Vision Station");
 			iBitID = 8;		m_inpDoorLock_HotBlower_Front			= new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
 			iBitID = 9;		m_inpDoorLock_HotBlower_Back			= new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Back");
-            iBitID = 8; m_inpDoorLock_HotBlower_Front1 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
-            iBitID = 8; m_inpDoorLock_HotBlower_Front2 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
-            iBitID = 8; m_inpDoorLock_HotBlower_Front3 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
-            iBitID = 8; m_inpDoorLock_HotBlower_Front4 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
-            iBitID = 8; m_inpDoorLock_HotBlower_Front5 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
-            iBitID = 8; m_inpDoorLock_HotBlower_Front6 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
-            iBitID = 8; m_inpDoorLock_HotBlower_Front7 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
-            iBitID = 8; m_inpDoorLock_HotBlower_Front8 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
-            iBitID = 8; m_inpDoorLock_HotBlower_Front9 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
-            iBitID = 8; m_inpDoorLock_HotBlower_Front10 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
+            //iBitID = 8; m_inpDoorLock_HotBlower_Front1 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
+            //iBitID = 8; m_inpDoorLock_HotBlower_Front2 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
+            //iBitID = 8; m_inpDoorLock_HotBlower_Front3 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
+            //iBitID = 8; m_inpDoorLock_HotBlower_Front4 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
+            //iBitID = 8; m_inpDoorLock_HotBlower_Front5 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
+            //iBitID = 8; m_inpDoorLock_HotBlower_Front6 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
+            //iBitID = 8; m_inpDoorLock_HotBlower_Front7 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
+            //iBitID = 8; m_inpDoorLock_HotBlower_Front8 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
+            //iBitID = 8; m_inpDoorLock_HotBlower_Front9 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
+            //iBitID = 8; m_inpDoorLock_HotBlower_Front10 = new InputBit(mInterface.Get_InputPort(5), iBitID, "Door Lock - Hot Blower Front");
 
             ////output------------------------------------------------------------------------------------------------------------------
             iBitID = 0;		m_pOutTowerLightRed_Static				= new OutputBit(mInterface.Get_OutputPort(1), iBitID, "Tower Light Red Static");

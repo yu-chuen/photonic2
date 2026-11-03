@@ -232,49 +232,94 @@ namespace GT_App
             foreach (var m in modules)
                 if (m != null) Collect(m, ins, outs);
 
-            // 1) find each port's number: ask InterfaceCards for 1, 2, 3 ... and match the object
+            //// 1) find each port's number: ask InterfaceCards for 1, 2, 3 ... and match the object
+            //var ic = m_pSeqMachineCtrl.m_InterfaceCards;
+            //var inNo = new Dictionary<MyIPort, int>();
+            //var outNo = new Dictionary<MyOPort, int>();
+
+            //for (int n = 1; inNo.Count < ins.Count && n <= 8; n++)
+            //{
+            //    var p = ic.Get_InputPort(n);
+            //    if (p != null && ins.ContainsKey(p) && !inNo.ContainsKey(p)) inNo[p] = n;
+            //}
+
+            //for (int n = 1; outNo.Count < outs.Count && n <= 8; n++)
+            //{
+            //    var p = ic.Get_OutputPort(n);
+            //    if (p != null && outs.ContainsKey(p) && !outNo.ContainsKey(p)) outNo[p] = n;
+            //}
+
+            //// 2) one tab per port number
+            //var portNums = new SortedSet<int>(inNo.Values); //{1,4,5}
+            //portNums.UnionWith(outNo.Values);
+
+            //foreach (int n in portNums)
+            //{
+            //    iCount++;                               // next page index
+            //    m_list_TabPage.Add(new TabPage());
+            //    m_list_userctrl_manualPage.Add(new UserCtrl_ManualPage_Template());
+
+            //    foreach (var kv in inNo.Where(k => k.Value == n))   // Go though inNo, find value = n, find port
+            //        foreach (var b in ins[kv.Key].OrderBy(x => x.m_iBitID)) // find variables based on port 
+            //            m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(b);
+
+            //    foreach (var kv in outNo.Where(k => k.Value == n))
+            //    {
+            //        foreach (var b in outs[kv.Key].OrderBy(x => x.m_iBitID))
+            //        {
+            //            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(b);
+            //            //Console.WriteLine(iCount);
+            //            //Console.WriteLine(b);
+            //        }
+            //    }
+
+            //    Add_TabPage("Port " + n, iCount);
+            //}
+
+            //2) Auto display for reserved
             var ic = m_pSeqMachineCtrl.m_InterfaceCards;
-            var inNo = new Dictionary<MyIPort, int>();
-            var outNo = new Dictionary<MyOPort, int>();
 
-            for (int n = 1; inNo.Count < ins.Count && n <= 16; n++)
+            for (int n = 1; n <= 8; n++)
             {
-                var p = ic.Get_InputPort(n);
-                if (p != null && ins.ContainsKey(p) && !inNo.ContainsKey(p)) inNo[p] = n;
-            }
-
-            for (int n = 1; outNo.Count < outs.Count && n <= 32; n++)
-            {
-                var p = ic.Get_OutputPort(n);
-                if (p != null && outs.ContainsKey(p) && !outNo.ContainsKey(p)) outNo[p] = n;
-            }
-
-            // 2) one tab per port number
-            var portNums = new SortedSet<int>(inNo.Values);
-            portNums.UnionWith(outNo.Values);
-
-            foreach (int n in portNums)
-            {
-                if (!inNo.ContainsValue(n)) continue;   // template needs at least 1 input on a page (see note)
-
-                iCount++;                               // next page index
+                iCount++;
                 m_list_TabPage.Add(new TabPage());
                 m_list_userctrl_manualPage.Add(new UserCtrl_ManualPage_Template());
+                var page = m_list_userctrl_manualPage[iCount];
 
-                foreach (var kv in inNo.Where(k => k.Value == n))
-                    foreach (var b in ins[kv.Key].OrderBy(x => x.m_iBitID))
-                        m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(b);
+                MyIPort inPort = ic.Get_InputPort(n);
+                MyOPort outPort = ic.Get_OutputPort(n);
 
-                foreach (var kv in outNo.Where(k => k.Value == n))
-                    foreach (var b in outs[kv.Key].OrderBy(x => x.m_iBitID))
-                        m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(b);
+                for (int bit = 0; bit < 16; bit++)
+                {
+                    // ---- input bit ----
+                    var inDeclared = (inPort != null && ins.ContainsKey(inPort))
+                                     ? ins[inPort].Where(x => x.m_iBitID == bit).ToList()
+                                     : new List<InputBit>();
 
+                    if (inDeclared.Count > 0)
+                        foreach (var b in inDeclared) page.Add_UserCtrlInput(b);
+                    else if (inPort != null)
+                        page.Add_UserCtrlInput(new InputBit(inPort, bit, "Reserved"));
+
+                    // ---- output bit ----
+                    var outDeclared = (outPort != null && outs.ContainsKey(outPort))
+                                      ? outs[outPort].Where(x => x.m_iBitID == bit).ToList()
+                                      : new List<OutputBit>();
+
+                    if (outDeclared.Count > 0)
+                        foreach (var b in outDeclared) page.Add_UserCtrlOutput(b);
+                    else if (outPort != null)
+                        page.Add_UserCtrlOutput(new OutputBit(outPort, bit, "Reserved"));   
+                }
                 Add_TabPage("Port " + n, iCount);
             }
-            #endregion
+                #endregion
 
-            //Add OP100------------------------------------------------------------------------------
-            iCount++;
+
+                //Add testing----------------------------------------------------------------------------
+
+                //Add OP100------------------------------------------------------------------------------
+                iCount++;
             #region OP100
             m_list_TabPage.Add(new TabPage());
             m_list_userctrl_manualPage.Add(new UserCtrl_ManualPage_Template());

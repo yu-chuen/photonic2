@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3523F9AA-DC82-4BA2-BAC5-1187F9668409}|GT_App\\Photonic.csproj|c:\\users\\ycleong\\documents\\photonic2\\photonic\\gt_app\\manual_pages\\io.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3523F9AA-DC82-4BA2-BAC5-1187F9668409}|GT_App\\Photonic.csproj|solutionrelative:gt_app\\manual_pages\\io.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3523F9AA-DC82-4BA2-BAC5-1187F9668409}|GT_App\\Photonic.csproj|c:\\users\\ycleong\\documents\\photonic2\\photonic\\gt_app\\manual_pages\\io.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3523F9AA-DC82-4BA2-BAC5-1187F9668409}|GT_App\\Photonic.csproj|solutionrelative:gt_app\\manual_pages\\io.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +11,20 @@
       "RelativeMoniker": "D:0:0:{5239F39C-51DA-4746-85E6-151D8954AD24}|StaticCoreLib\\StaticCoreLib.csproj|solutionrelative:staticcorelib\\modules\\module_controlpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5239F39C-51DA-4746-85E6-151D8954AD24}|StaticCoreLib\\StaticCoreLib.csproj|c:\\users\\ycleong\\documents\\photonic2\\photonic\\staticcorelib\\modules\\module_fwdconv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5239F39C-51DA-4746-85E6-151D8954AD24}|StaticCoreLib\\StaticCoreLib.csproj|solutionrelative:staticcorelib\\modules\\module_fwdconv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3523F9AA-DC82-4BA2-BAC5-1187F9668409}|GT_App\\Photonic.csproj|c:\\users\\ycleong\\documents\\photonic2\\photonic\\gt_app\\manual_pages\\userctrl_manualpage_template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3523F9AA-DC82-4BA2-BAC5-1187F9668409}|GT_App\\Photonic.csproj|solutionrelative:gt_app\\manual_pages\\userctrl_manualpage_template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5239F39C-51DA-4746-85E6-151D8954AD24}|StaticCoreLib\\StaticCoreLib.csproj|C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\staticcorelib\\io cards\\inputbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5239F39C-51DA-4746-85E6-151D8954AD24}|StaticCoreLib\\StaticCoreLib.csproj|solutionrelative:staticcorelib\\io cards\\inputbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3523F9AA-DC82-4BA2-BAC5-1187F9668409}|GT_App\\Photonic.csproj|C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\gt_app\\manual_pages\\userctrl_manualpage_template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3523F9AA-DC82-4BA2-BAC5-1187F9668409}|GT_App\\Photonic.csproj|solutionrelative:gt_app\\manual_pages\\userctrl_manualpage_template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5239F39C-51DA-4746-85E6-151D8954AD24}|StaticCoreLib\\StaticCoreLib.csproj|C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\staticcorelib\\io cards\\myiport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5239F39C-51DA-4746-85E6-151D8954AD24}|StaticCoreLib\\StaticCoreLib.csproj|solutionrelative:staticcorelib\\io cards\\myiport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5239F39C-51DA-4746-85E6-151D8954AD24}|StaticCoreLib\\StaticCoreLib.csproj|C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\staticcorelib\\io cards\\inputbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5239F39C-51DA-4746-85E6-151D8954AD24}|StaticCoreLib\\StaticCoreLib.csproj|solutionrelative:staticcorelib\\io cards\\inputbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5239F39C-51DA-4746-85E6-151D8954AD24}|StaticCoreLib\\StaticCoreLib.csproj|C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\staticcorelib\\seqmachinecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5239F39C-51DA-4746-85E6-151D8954AD24}|StaticCoreLib\\StaticCoreLib.csproj|C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\staticcorelib\\modules\\monitorinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5239F39C-51DA-4746-85E6-151D8954AD24}|StaticCoreLib\\StaticCoreLib.csproj|solutionrelative:staticcorelib\\modules\\monitorinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3523F9AA-DC82-4BA2-BAC5-1187F9668409}|GT_App\\Photonic.csproj|C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\gt_app\\manual_pages\\userctrl_manualpage_template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3523F9AA-DC82-4BA2-BAC5-1187F9668409}|GT_App\\Photonic.csproj|solutionrelative:gt_app\\manual_pages\\userctrl_manualpage_template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,33 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 266,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Io.cs",
               "DocumentMoniker": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\GT_App\\Manual_Pages\\Io.cs",
               "RelativeDocumentMoniker": "GT_App\\Manual_Pages\\Io.cs",
               "ToolTip": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\GT_App\\Manual_Pages\\Io.cs",
               "RelativeToolTip": "GT_App\\Manual_Pages\\Io.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAiwJIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoBAAAAAAAAAAAgwDEBAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-30T08:37:22.165Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Io.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\GT_App\\Manual_Pages\\Io.cs",
-              "RelativeDocumentMoniker": "GT_App\\Manual_Pages\\Io.cs",
-              "ToolTip": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\GT_App\\Manual_Pages\\Io.cs [Design]",
-              "RelativeToolTip": "GT_App\\Manual_Pages\\Io.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T09:04:37.325Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
@@ -80,39 +64,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Module_FwdConv.cs",
-              "DocumentMoniker": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\StaticCoreLib\\Modules\\Module_FwdConv.cs",
-              "RelativeDocumentMoniker": "StaticCoreLib\\Modules\\Module_FwdConv.cs",
-              "ToolTip": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\StaticCoreLib\\Modules\\Module_FwdConv.cs",
-              "RelativeToolTip": "StaticCoreLib\\Modules\\Module_FwdConv.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UserCtrl_ManualPage_Template.cs",
+              "DocumentMoniker": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\GT_App\\Manual_Pages\\UserCtrl_ManualPage_Template.cs",
+              "RelativeDocumentMoniker": "GT_App\\Manual_Pages\\UserCtrl_ManualPage_Template.cs",
+              "ToolTip": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\GT_App\\Manual_Pages\\UserCtrl_ManualPage_Template.cs",
+              "RelativeToolTip": "GT_App\\Manual_Pages\\UserCtrl_ManualPage_Template.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAqwJ4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T08:57:58.888Z",
+              "WhenOpened": "2026-11-03T02:53:20.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MyIPort.cs",
               "DocumentMoniker": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\StaticCoreLib\\IO Cards\\MyIPort.cs",
               "RelativeDocumentMoniker": "StaticCoreLib\\IO Cards\\MyIPort.cs",
               "ToolTip": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\StaticCoreLib\\IO Cards\\MyIPort.cs",
               "RelativeToolTip": "StaticCoreLib\\IO Cards\\MyIPort.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-02T06:22:43.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "InputBit.cs",
               "DocumentMoniker": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\StaticCoreLib\\IO Cards\\InputBit.cs",
               "RelativeDocumentMoniker": "StaticCoreLib\\IO Cards\\InputBit.cs",
               "ToolTip": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\StaticCoreLib\\IO Cards\\InputBit.cs",
               "RelativeToolTip": "StaticCoreLib\\IO Cards\\InputBit.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA0AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-02T06:31:49.432Z",
               "EditorCaption": ""
@@ -143,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "UserCtrl_ManualPage_Template.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\GT_App\\Manual_Pages\\UserCtrl_ManualPage_Template.cs",
               "RelativeDocumentMoniker": "GT_App\\Manual_Pages\\UserCtrl_ManualPage_Template.cs",
@@ -161,10 +145,10 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "60f000b2-5071-4f5a-aabc-d25ae7878995",
+        "Id": "a8f73348-d14f-45db-b8ba-5e6a4f6aea21",
         "Display": 1,
         "X": -5,
-        "Y": 103,
+        "Y": 69,
         "Width": 1090,
         "Height": 767,
         "WindowState": 2
@@ -176,15 +160,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Module_ControlPanel.cs",
               "DocumentMoniker": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\StaticCoreLib\\Modules\\Module_ControlPanel.cs",
               "RelativeDocumentMoniker": "StaticCoreLib\\Modules\\Module_ControlPanel.cs",
               "ToolTip": "C:\\Users\\ycleong\\Documents\\photonic2\\Photonic\\StaticCoreLib\\Modules\\Module_ControlPanel.cs",
               "RelativeToolTip": "StaticCoreLib\\Modules\\Module_ControlPanel.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAQwGoAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwGwAAACOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T08:05:18.368Z",
+              "WhenOpened": "2026-11-03T00:40:13.551Z",
               "EditorCaption": ""
             }
           ]
