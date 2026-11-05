@@ -20,7 +20,7 @@
             // 
             // lbl_DI
             // 
-            this.lbl_DI.BackColor = System.Drawing.Color.FromArgb(31, 111, 178);
+            this.lbl_DI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(111)))), ((int)(((byte)(178)))));
             this.lbl_DI.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_DI.ForeColor = System.Drawing.Color.White;
             this.lbl_DI.Location = new System.Drawing.Point(0, 2);
@@ -28,12 +28,12 @@
             this.lbl_DI.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.lbl_DI.Size = new System.Drawing.Size(528, 30);
             this.lbl_DI.TabIndex = 0;
-            this.lbl_DI.Text = "INPUTS  (DI)   -   status only";
+            this.lbl_DI.Text = "INPUTS  (DI)   -   read only";
             this.lbl_DI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbl_DO
             // 
-            this.lbl_DO.BackColor = System.Drawing.Color.FromArgb(217, 119, 43);
+            this.lbl_DO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(119)))), ((int)(((byte)(43)))));
             this.lbl_DO.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_DO.ForeColor = System.Drawing.Color.White;
             this.lbl_DO.Location = new System.Drawing.Point(578, 2);
@@ -54,8 +54,6 @@
             // 
             // UserCtrl_PortHeader
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.lbl_Line);
             this.Controls.Add(this.lbl_DO);
@@ -63,6 +61,7 @@
             this.Name = "UserCtrl_PortHeader";
             this.Size = new System.Drawing.Size(1034, 78);
             this.ResumeLayout(false);
+
         }
         #endregion
 

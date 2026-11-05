@@ -142,7 +142,7 @@ namespace GT_App
                 this.Controls.Add(m_list_userctrl_UI_Inputbit[iCount]);
 
                 //Set point for user control position (next user control)
-                pPoint.Y += m_list_userctrl_UI_Inputbit[iCount].Height;
+                pPoint.Y += m_list_userctrl_UI_Inputbit[iCount].Height + 20;
             }
 
             //Add Output Bit--------------------------------------------------------------------------------------
@@ -159,7 +159,7 @@ namespace GT_App
                     this.Controls.Add(m_list_userctrl_UI_Outputbit[iCount]);
 
                     //Set point for user control position (next user control)
-                    pPoint.Y += m_list_userctrl_UI_Outputbit[iCount].Height;
+                    pPoint.Y += m_list_userctrl_UI_Outputbit[iCount].Height + 20;
                 }
             }
             foreach (UserCtrl_UI_Dual_OutputBit userCtrl in m_list_userctrl_UI_Dual_Output)

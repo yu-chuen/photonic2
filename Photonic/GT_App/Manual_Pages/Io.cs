@@ -269,7 +269,7 @@ namespace GT_App
                     else if (outPort != null)
                         page.Add_UserCtrlOutput(new OutputBit(outPort, bit, "Reserved"));   
                 }
-                Add_TabPage("Port " + n, iCount);
+                Add_TabPage("Card " + n, iCount);
             }
                 #endregion
 

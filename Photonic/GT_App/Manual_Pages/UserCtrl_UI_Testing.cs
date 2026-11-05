@@ -73,6 +73,7 @@ namespace GT_App
         {
             lock (m_lock_Access)
             {
+                //Console.WriteLine(m_OutBit.Read());
                 //interlock
                 if (m_SeqMachineCtrl.m_ViewModel_Interlock.OutputBit_Interlock(this.Label, ((m_OutBit.Read() == 1) ? 0 : 1)) == false)
                 {
