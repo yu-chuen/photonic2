@@ -71,5 +71,9 @@ namespace GT_App
             this.Update_PicBox();
         }
 
+        private void lbl_Label_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

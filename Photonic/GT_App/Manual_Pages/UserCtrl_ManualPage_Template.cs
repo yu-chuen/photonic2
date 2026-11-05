@@ -12,13 +12,20 @@ using System.Threading;
 
 namespace GT_App
 {
+    
     public partial class UserCtrl_ManualPage_Template : UserControl
     {
+        public bool m_bPairRows = false;
+
+        public static bool UserTestingStyle = true;
         //variables
         SeqMachineControl m_SeqMachineControl = null;
 
-        List<UserCtrl_UI_InputBit> m_list_userctrl_UI_Inputbit;
+        List<UserCtrl_UI_InputBit> m_list_userctrl_UI_Inputbit; 
+
+        //List<UserCtrl_UI_Testing> m_list_userctrl_UI_Outputbit; //
         List<UserCtrl_UI_OutputBit> m_list_userctrl_UI_Outputbit;
+
         List<UserCtrl_UI_Cylinder> m_list_userctrl_UI_Cylinder;
         List<UserCtrl_UI_Dual_OutputBit> m_list_userctrl_UI_Dual_Output;
         List<UserCtrl_RobotStation_Goto> m_list_userctrl_UI_RobotGoto;
@@ -37,7 +44,10 @@ namespace GT_App
             m_SeqMachineControl = GT_App.Program.m_MainApp.m_SeqMachineCtrl;
 
             m_list_userctrl_UI_Inputbit = new List<UserCtrl_UI_InputBit>();
+
+            //m_list_userctrl_UI_Outputbit = new List<UserCtrl_UI_Testing>(); //
             m_list_userctrl_UI_Outputbit = new List<UserCtrl_UI_OutputBit>();
+
             m_list_userctrl_UI_Cylinder = new List<UserCtrl_UI_Cylinder>();
             m_list_userctrl_UI_RobotGoto = new List<UserCtrl_RobotStation_Goto>();
             m_list_userctrl_UI_Dual_Output = new List<UserCtrl_UI_Dual_OutputBit>();
@@ -57,7 +67,14 @@ namespace GT_App
             foreach (UserCtrl_UI_OutputBit mUserCtrl in m_list_userctrl_UI_Outputbit)
             {
                 mUserCtrl.Get_OrderEndString();
+
             }
+
+            //foreach (UserCtrl_UI_Testing mUserCtrl in m_list_userctrl_UI_Outputbit) //
+            //{
+            //    mUserCtrl.Get_OrderEndString();
+            //}
+
 
             //update for boolean type button
             foreach (UserCtrl_UI_Dual_OutputBit userCtrl in m_list_userctrl_UI_Dual_Output)
@@ -81,7 +98,7 @@ namespace GT_App
             iTotalItem = m_list_userctrl_UI_Inputbit.Count;
             pPoint.X = 0;
             pPoint.Y = 0;
-
+            
             for (int iCount = 0; iCount < iTotalItem; iCount++)
             {
                 if (iCount == 25)
@@ -92,7 +109,7 @@ namespace GT_App
 
                 if (iCount == 50)
                 {
-                    pPoint.X = (m_list_userctrl_UI_Inputbit[0].Width*2) + 100;
+                    pPoint.X = (m_list_userctrl_UI_Inputbit[0].Width * 2) + 100;
                     pPoint.Y = 0;
                 }
                 //Set user control position
@@ -108,7 +125,6 @@ namespace GT_App
             iTotalItem = m_list_userctrl_UI_Outputbit.Count;
             pPoint.X = m_list_userctrl_UI_Inputbit[0].Width + 50;
             pPoint.Y = 0;
-
             if (iTotalItem > 0)
             {
                 for (int iCount = 0; iCount < iTotalItem; iCount++)
@@ -130,9 +146,8 @@ namespace GT_App
                 //Set point for user control position (next user control)
                 pPoint.Y += userCtrl.Height;
             }
-
-                //Space for cylinders
-                pPoint.Y += 40;
+            //Space for cylinders
+            pPoint.Y += 40;
 
             //Add Cylinder-------------------------------------------------------------------------------------
             iTotalItem = m_list_userctrl_UI_Cylinder.Count;
@@ -175,6 +190,10 @@ namespace GT_App
         //Add user control: Output Bit////////////////////////////////////////////////////////////////////////////////////////////////////////////
         public void Add_UserCtrlOutput(OutputBit mOutputBit)
         {
+
+            //m_list_userctrl_UI_Outputbit.Add(new UserCtrl_UI_Testing());
+            //m_list_userctrl_UI_Outputbit[(m_list_userctrl_UI_Outputbit.Count - 1)].Set_OutputBitPtr(mOutputBit);
+
             m_list_userctrl_UI_Outputbit.Add(new UserCtrl_UI_OutputBit());
             m_list_userctrl_UI_Outputbit[(m_list_userctrl_UI_Outputbit.Count - 1)].Set_OutputBitPtr(mOutputBit);
         }

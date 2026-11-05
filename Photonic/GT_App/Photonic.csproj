@@ -373,6 +373,12 @@
     <Compile Include="Manual_Pages\Io.Designer.cs">
       <DependentUpon>Io.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_UI_Testing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_UI_Testing.Designer.cs">
+      <DependentUpon>UserCtrl_UI_Testing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Manual_Pages\UserCtrl_UI_Dual_OutputBit.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -755,6 +761,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Manual_Pages\Io.resx">
       <DependentUpon>Io.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_UI_Testing.resx">
+      <DependentUpon>UserCtrl_UI_Testing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manual_Pages\UserCtrl_UI_Dual_OutputBit.resx">
       <DependentUpon>UserCtrl_UI_Dual_OutputBit.cs</DependentUpon>

@@ -168,7 +168,7 @@ namespace GT_App
         public void Add_UserCtrl()
         {
             int iCount = 0;
-
+            //m_pSeqMachineCtrl.m_Module_ControlPanel.m_pOutTowerLightRed_Static.ForcedValue = 1; 
             //add Control Panel------------------------------------------------------------------------------
             #region ControlPanel
             m_list_TabPage.Add(new TabPage());
@@ -232,51 +232,7 @@ namespace GT_App
             foreach (var m in modules)
                 if (m != null) Collect(m, ins, outs);
 
-            //// 1) find each port's number: ask InterfaceCards for 1, 2, 3 ... and match the object
-            //var ic = m_pSeqMachineCtrl.m_InterfaceCards;
-            //var inNo = new Dictionary<MyIPort, int>();
-            //var outNo = new Dictionary<MyOPort, int>();
 
-            //for (int n = 1; inNo.Count < ins.Count && n <= 8; n++)
-            //{
-            //    var p = ic.Get_InputPort(n);
-            //    if (p != null && ins.ContainsKey(p) && !inNo.ContainsKey(p)) inNo[p] = n;
-            //}
-
-            //for (int n = 1; outNo.Count < outs.Count && n <= 8; n++)
-            //{
-            //    var p = ic.Get_OutputPort(n);
-            //    if (p != null && outs.ContainsKey(p) && !outNo.ContainsKey(p)) outNo[p] = n;
-            //}
-
-            //// 2) one tab per port number
-            //var portNums = new SortedSet<int>(inNo.Values); //{1,4,5}
-            //portNums.UnionWith(outNo.Values);
-
-            //foreach (int n in portNums)
-            //{
-            //    iCount++;                               // next page index
-            //    m_list_TabPage.Add(new TabPage());
-            //    m_list_userctrl_manualPage.Add(new UserCtrl_ManualPage_Template());
-
-            //    foreach (var kv in inNo.Where(k => k.Value == n))   // Go though inNo, find value = n, find port
-            //        foreach (var b in ins[kv.Key].OrderBy(x => x.m_iBitID)) // find variables based on port 
-            //            m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(b);
-
-            //    foreach (var kv in outNo.Where(k => k.Value == n))
-            //    {
-            //        foreach (var b in outs[kv.Key].OrderBy(x => x.m_iBitID))
-            //        {
-            //            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(b);
-            //            //Console.WriteLine(iCount);
-            //            //Console.WriteLine(b);
-            //        }
-            //    }
-
-            //    Add_TabPage("Port " + n, iCount);
-            //}
-
-            //2) Auto display for reserved
             var ic = m_pSeqMachineCtrl.m_InterfaceCards;
 
             for (int n = 1; n <= 8; n++)
@@ -295,8 +251,8 @@ namespace GT_App
                     var inDeclared = (inPort != null && ins.ContainsKey(inPort))
                                      ? ins[inPort].Where(x => x.m_iBitID == bit).ToList()
                                      : new List<InputBit>();
-
-                    if (inDeclared.Count > 0)
+                    
+                    if (inDeclared.Count > 0)   // inDeclared.Count will 0 for reserved
                         foreach (var b in inDeclared) page.Add_UserCtrlInput(b);
                     else if (inPort != null)
                         page.Add_UserCtrlInput(new InputBit(inPort, bit, "Reserved"));
@@ -317,30 +273,6 @@ namespace GT_App
 
 
                 //Add testing----------------------------------------------------------------------------
-
-                //Add OP100------------------------------------------------------------------------------
-                iCount++;
-            #region OP100
-            m_list_TabPage.Add(new TabPage());
-            m_list_userctrl_manualPage.Add(new UserCtrl_ManualPage_Template());
-
-            m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_senPalletPresent_1);
-            m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Station.m_senPalletPresent_2);
-            m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Station.m_senPalletPresent_3);
-            m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Station.m_senPalletPassThru);
-            m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Station.m_inpButton_Start);
-
-            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_FwdConv_OP100.m_outConv_MoveFWD);
-            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_FwdConv_OP100.m_outConv_MoveREV);
-            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_outStopper_1);
-            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_OP100_Station.m_outStopper_2);
-            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_outIndicatorLight_Red);
-            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_outIndicatorLight_Green);
-
-           
-
-            Add_TabPage("Manual\r\n(OP100)", iCount);
-            #endregion
 
         }
 

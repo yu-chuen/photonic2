@@ -116,8 +116,10 @@ namespace StaticCoreLib
 
         ////////////////////////////////////////////////////////////////////////////////
         //read output port
+        public int? ForcedValue = null;
         public int Read()
         {
+            //if (ForcedValue > 0) return ForcedValue.Value;
             int iTempValue = 0;
 
             if (m_OPort == null)

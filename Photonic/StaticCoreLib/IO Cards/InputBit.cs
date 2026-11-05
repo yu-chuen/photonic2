@@ -36,9 +36,10 @@ namespace StaticCoreLib
 
         //////////////////////////////////////////////////////////////////////
         //Read
+
         public int Read()
         {
-            int iTempValue = 0;
+            int iTempValue = 10;
 
             if (m_IPort == null)
             {
@@ -50,6 +51,7 @@ namespace StaticCoreLib
                 iTempValue = -1;
             }
 
+            //Console.WriteLine(iTempValue);
             return iTempValue;
         }
 

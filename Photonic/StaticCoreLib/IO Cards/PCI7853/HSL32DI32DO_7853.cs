@@ -104,6 +104,7 @@ namespace StaticCoreLib
             ushort iTempLogic = 0;
 
             short ret = HSL.HSL_D_read_channel_input(m_iCardNumber, m_iSetID, m_iSlaveNumber, (short)iBitIndex, ref iTempLogic);
+
             if (ret != 0)
             {
                 String strMsg = "Error: HSL InputPort card failed to Read.\r\n" + "Card: " + m_iCardNumber.ToString()

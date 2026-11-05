@@ -12,7 +12,7 @@ using StaticCoreLib;
 namespace GT_App
 {
     public partial class 
-        UserCtrl_UI_OutputBit : UserControl
+        UserCtrl_UI_OutputBit : UserControl //IOutputBitUI for testing 
     {
         //variables
 		OutputBit m_OutBit = null;

@@ -43,6 +43,7 @@
             this.lbl_Label.TabIndex = 8;
             this.lbl_Label.Text = "...";
             this.lbl_Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_Label.Click += new System.EventHandler(this.lbl_Label_Click);
             // 
             // pic_Indicator
             // 

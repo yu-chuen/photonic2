@@ -14,7 +14,7 @@ namespace StaticCoreLib
     {
         //Variables
         public int m_iNumberOfBits = 0;
-        public bool m_bInit = false;
+        public bool m_bInit = false;    //
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //Constructor
