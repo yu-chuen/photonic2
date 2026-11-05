@@ -232,7 +232,7 @@ namespace GT_App
             foreach (var m in modules)
                 if (m != null) Collect(m, ins, outs);
 
-
+            //2) Auto display for reserved
             var ic = m_pSeqMachineCtrl.m_InterfaceCards;
 
             for (int n = 1; n <= 8; n++)
@@ -241,8 +241,6 @@ namespace GT_App
                 m_list_TabPage.Add(new TabPage());
                 m_list_userctrl_manualPage.Add(new UserCtrl_ManualPage_Template());
                 var page = m_list_userctrl_manualPage[iCount];
-
-                page.m_bShowHeaders = true;
 
                 MyIPort inPort = ic.Get_InputPort(n);
                 MyOPort outPort = ic.Get_OutputPort(n);
@@ -275,6 +273,30 @@ namespace GT_App
 
 
                 //Add testing----------------------------------------------------------------------------
+
+                //Add OP100------------------------------------------------------------------------------
+                iCount++;
+            #region OP100
+            m_list_TabPage.Add(new TabPage());
+            m_list_userctrl_manualPage.Add(new UserCtrl_ManualPage_Template());
+
+            m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_senPalletPresent_1);
+            m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Station.m_senPalletPresent_2);
+            m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Station.m_senPalletPresent_3);
+            m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Station.m_senPalletPassThru);
+            m_list_userctrl_manualPage[iCount].Add_UserCtrlInput(m_pSeqMachineCtrl.m_Module_OP100_Station.m_inpButton_Start);
+
+            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_FwdConv_OP100.m_outConv_MoveFWD);
+            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_FwdConv_OP100.m_outConv_MoveREV);
+            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_outStopper_1);
+            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_OP100_Station.m_outStopper_2);
+            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_outIndicatorLight_Red);
+            m_list_userctrl_manualPage[iCount].Add_UserCtrlOutput(m_pSeqMachineCtrl.m_Module_OP100_Buffer.m_outIndicatorLight_Green);
+
+           
+
+            Add_TabPage("Manual\r\n(OP100)", iCount);
+            #endregion
 
         }
 

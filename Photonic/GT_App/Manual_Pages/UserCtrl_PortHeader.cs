@@ -11,7 +11,7 @@ namespace GT_App
 {
     public partial class UserCtrl_PortHeader : UserControl
     {
-        private const int BAR_HEIGHT = 30;
+        private const int BAR_HEIGHT = 28;
         public UserCtrl_PortHeader()
         {
             InitializeComponent();
