@@ -60,6 +60,7 @@
             this.Load += new System.EventHandler(this.UserCtrl_UI_OutputBit_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic_Indicator)).EndInit();
             this.ResumeLayout(false);
+
         }
         #endregion
 

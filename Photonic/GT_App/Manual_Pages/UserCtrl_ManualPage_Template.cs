@@ -15,16 +15,20 @@ namespace GT_App
     
     public partial class UserCtrl_ManualPage_Template : UserControl
     {
-        public bool m_bPairRows = false;
 
+        private const int HEADER_HEIGHT = 30;
+        public bool m_bShowHeaders = false;
+
+        public bool m_bPairRows = false;
+       
         public static bool UserTestingStyle = true;
         //variables
         SeqMachineControl m_SeqMachineControl = null;
 
         List<UserCtrl_UI_InputBit> m_list_userctrl_UI_Inputbit; 
 
-        //List<UserCtrl_UI_Testing> m_list_userctrl_UI_Outputbit; //
-        List<UserCtrl_UI_OutputBit> m_list_userctrl_UI_Outputbit;
+        List<UserCtrl_UI_Testing> m_list_userctrl_UI_Outputbit; //
+        //List<UserCtrl_UI_OutputBit> m_list_userctrl_UI_Outputbit;
 
         List<UserCtrl_UI_Cylinder> m_list_userctrl_UI_Cylinder;
         List<UserCtrl_UI_Dual_OutputBit> m_list_userctrl_UI_Dual_Output;
@@ -37,6 +41,23 @@ namespace GT_App
         UserCtrl_Custom_OP85_VisionTest m_userctrl_OP85;
         UserCtrl_Custom_OP90_VisionTest m_userctrl_OP90;
 
+        private void Add_Headers()
+        {
+            int iInW = (m_list_userctrl_UI_Inputbit.Count > 0) ? m_list_userctrl_UI_Inputbit[0].Width : 528;
+            int iInH = (m_list_userctrl_UI_Inputbit.Count > 0) ? m_list_userctrl_UI_Inputbit[0].Height : 36;
+            int iOutW = (m_list_userctrl_UI_Outputbit.Count > 0) ? m_list_userctrl_UI_Outputbit[0].Width : 456;
+            int iOutH = (m_list_userctrl_UI_Outputbit.Count > 0) ? m_list_userctrl_UI_Outputbit[0].Height : 56;
+
+            int iColHeight = Math.Max(m_list_userctrl_UI_Inputbit.Count * iInH,
+                                      m_list_userctrl_UI_Outputbit.Count * iOutH);
+
+            UserCtrl_PortHeader hdr = new UserCtrl_PortHeader();
+            hdr.Set_Sizes(iInW, iOutW, HEADER_HEIGHT + iColHeight);
+            hdr.Location = new Point(0, 0);
+            this.Controls.Add(hdr);
+            hdr.SendToBack();            // keep the rows in front of it
+        }
+
         //constructor/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         public UserCtrl_ManualPage_Template()
         {
@@ -45,8 +66,8 @@ namespace GT_App
 
             m_list_userctrl_UI_Inputbit = new List<UserCtrl_UI_InputBit>();
 
-            //m_list_userctrl_UI_Outputbit = new List<UserCtrl_UI_Testing>(); //
-            m_list_userctrl_UI_Outputbit = new List<UserCtrl_UI_OutputBit>();
+            m_list_userctrl_UI_Outputbit = new List<UserCtrl_UI_Testing>(); //
+            //m_list_userctrl_UI_Outputbit = new List<UserCtrl_UI_OutputBit>();
 
             m_list_userctrl_UI_Cylinder = new List<UserCtrl_UI_Cylinder>();
             m_list_userctrl_UI_RobotGoto = new List<UserCtrl_RobotStation_Goto>();
@@ -64,16 +85,16 @@ namespace GT_App
             }
 
             //Update for output bit 
-            foreach (UserCtrl_UI_OutputBit mUserCtrl in m_list_userctrl_UI_Outputbit)
-            {
-                mUserCtrl.Get_OrderEndString();
-
-            }
-
-            //foreach (UserCtrl_UI_Testing mUserCtrl in m_list_userctrl_UI_Outputbit) //
+            //foreach (UserCtrl_UI_OutputBit mUserCtrl in m_list_userctrl_UI_Outputbit)
             //{
             //    mUserCtrl.Get_OrderEndString();
+
             //}
+
+            foreach (UserCtrl_UI_Testing mUserCtrl in m_list_userctrl_UI_Outputbit) //
+            {
+                mUserCtrl.Get_OrderEndString();
+            }
 
 
             //update for boolean type button
@@ -92,6 +113,8 @@ namespace GT_App
         {
             Point pPoint = new Point(0, 0);
             int iTotalItem = 0;
+
+            int iTop = (m_bShowHeaders == true) ? HEADER_HEIGHT : 0;
 
 
             //Add Input bit-----------------------------------------------------------------------------------------			
@@ -178,6 +201,8 @@ namespace GT_App
                 //Set point for user control position (next user control)
                 pPoint.Y += m_list_userctrl_UI_RobotGoto[iCount].Height;
             }
+
+            if (m_bShowHeaders == true) Add_Headers();
         }
 
         //Add user control: Input Bit/////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -191,11 +216,11 @@ namespace GT_App
         public void Add_UserCtrlOutput(OutputBit mOutputBit)
         {
 
-            //m_list_userctrl_UI_Outputbit.Add(new UserCtrl_UI_Testing());
-            //m_list_userctrl_UI_Outputbit[(m_list_userctrl_UI_Outputbit.Count - 1)].Set_OutputBitPtr(mOutputBit);
-
-            m_list_userctrl_UI_Outputbit.Add(new UserCtrl_UI_OutputBit());
+            m_list_userctrl_UI_Outputbit.Add(new UserCtrl_UI_Testing());
             m_list_userctrl_UI_Outputbit[(m_list_userctrl_UI_Outputbit.Count - 1)].Set_OutputBitPtr(mOutputBit);
+
+            //m_list_userctrl_UI_Outputbit.Add(new UserCtrl_UI_OutputBit());
+            //m_list_userctrl_UI_Outputbit[(m_list_userctrl_UI_Outputbit.Count - 1)].Set_OutputBitPtr(mOutputBit);
         }
 
         //Add user control: Boolean////////////////////////////////////////////////////////////////////////////////////////////////////////////
