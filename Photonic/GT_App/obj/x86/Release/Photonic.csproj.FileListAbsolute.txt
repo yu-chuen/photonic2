@@ -301,3 +301,4 @@ C:\Users\ycleong\Documents\photonic2\Photonic\GT_App\obj\x86\Release\Photonic.cs
 C:\Users\ycleong\Documents\photonic2\Photonic\GT_App\obj\x86\Release\Dyson_X597_SOP_SOLSTAT.exe
 C:\Users\ycleong\Documents\photonic2\Photonic\GT_App\obj\x86\Release\Dyson_X597_SOP_SOLSTAT.pdb
 C:\Users\ycleong\Documents\photonic2\Photonic\GT_App\obj\x86\Release\GT_App.UserCtrl_UI_Testing.resources
+C:\Users\ycleong\Documents\photonic2\Photonic\GT_App\obj\x86\Release\GT_App.UserCtrl_PortHeader.resources

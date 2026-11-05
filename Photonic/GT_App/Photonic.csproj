@@ -373,6 +373,12 @@
     <Compile Include="Manual_Pages\Io.Designer.cs">
       <DependentUpon>Io.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_PortHeader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\UserCtrl_PortHeader.Designer.cs">
+      <DependentUpon>UserCtrl_PortHeader.cs</DependentUpon>
+    </Compile>
     <Compile Include="Manual_Pages\UserCtrl_UI_Testing.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -761,6 +767,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Manual_Pages\Io.resx">
       <DependentUpon>Io.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\UserCtrl_PortHeader.resx">
+      <DependentUpon>UserCtrl_PortHeader.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manual_Pages\UserCtrl_UI_Testing.resx">
       <DependentUpon>UserCtrl_UI_Testing.cs</DependentUpon>

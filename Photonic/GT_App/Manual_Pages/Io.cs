@@ -242,6 +242,8 @@ namespace GT_App
                 m_list_userctrl_manualPage.Add(new UserCtrl_ManualPage_Template());
                 var page = m_list_userctrl_manualPage[iCount];
 
+                page.m_bShowHeaders = true;
+
                 MyIPort inPort = ic.Get_InputPort(n);
                 MyOPort outPort = ic.Get_OutputPort(n);
 

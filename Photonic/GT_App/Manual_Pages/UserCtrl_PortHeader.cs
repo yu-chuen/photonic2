@@ -11,15 +11,15 @@ namespace GT_App
 {
     public partial class UserCtrl_PortHeader : UserControl
     {
-        private const int BAR_HEIGHT = 20;
+        private const int BAR_HEIGHT = 30;
         public UserCtrl_PortHeader()
         {
             InitializeComponent();
         }
 
-        public void Set_Size(int iInW, int iOutW, int iTotalHeight)
+        public void Set_Sizes(int iInW, int iOutW, int iTotalHeight)
         {
-            this.Size = new Size(iInW + 50, iOutW, iTotalHeight);
+            this.Size = new Size(iInW + 50 + iOutW, iTotalHeight);
 
             lbl_DI.Location = new Point(0, 2);
             lbl_DI.Size = new Size(iInW, BAR_HEIGHT);
