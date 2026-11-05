@@ -37,6 +37,28 @@ namespace GT_App
         UserCtrl_Custom_OP85_VisionTest m_userctrl_OP85;
         UserCtrl_Custom_OP90_VisionTest m_userctrl_OP90;
 
+
+        // Header settings 
+        private const int HEADER_HEIGHT = 30;
+        public bool m_bShowHeaders = false;
+
+        private void Add_Headers()
+        {
+            int iInW = (m_list_userctrl_UI_Inputbit.Count > 0) ? m_list_userctrl_UI_Inputbit[0].Width : 528;
+            int iInH = (m_list_userctrl_UI_Inputbit.Count > 0) ? m_list_userctrl_UI_Inputbit[0].Height : 36;
+            int iOutW = (m_list_userctrl_UI_Outputbit.Count > 0) ? m_list_userctrl_UI_Outputbit[0].Width : 456;
+            int iOutH = (m_list_userctrl_UI_Outputbit.Count > 0) ? m_list_userctrl_UI_Outputbit[0].Height : 56;
+
+            int iColHeight = Math.Max(m_list_userctrl_UI_Inputbit.Count * iInH,
+                                      m_list_userctrl_UI_Outputbit.Count * iOutH);
+
+            UserCtrl_PortHeader hdr = new UserCtrl_PortHeader();
+            hdr.Set_Sizes(iInW, iOutW, HEADER_HEIGHT + iColHeight);
+            hdr.Location = new Point(0, 0);
+            this.Controls.Add(hdr);
+            hdr.SendToBack();            // keep the rows in front of it
+        }
+
         //constructor/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         public UserCtrl_ManualPage_Template()
         {
@@ -93,24 +115,27 @@ namespace GT_App
             Point pPoint = new Point(0, 0);
             int iTotalItem = 0;
 
+            // Header 
+            int iTop = (m_bShowHeaders == true) ? HEADER_HEIGHT : 0;
+
 
             //Add Input bit-----------------------------------------------------------------------------------------			
             iTotalItem = m_list_userctrl_UI_Inputbit.Count;
             pPoint.X = 0;
-            pPoint.Y = 0;
+            pPoint.Y = iTop;    // 0
             
             for (int iCount = 0; iCount < iTotalItem; iCount++)
             {
                 if (iCount == 25)
                 {
                     pPoint.X = m_list_userctrl_UI_Inputbit[0].Width + 50;
-                    pPoint.Y = 0;
+                    pPoint.Y = iTop;    // 0
                 }
 
                 if (iCount == 50)
                 {
                     pPoint.X = (m_list_userctrl_UI_Inputbit[0].Width * 2) + 100;
-                    pPoint.Y = 0;
+                    pPoint.Y = iTop;    // 0 
                 }
                 //Set user control position
                 m_list_userctrl_UI_Inputbit[iCount].Location = pPoint;
@@ -124,7 +149,7 @@ namespace GT_App
             //Set Output bit position
             iTotalItem = m_list_userctrl_UI_Outputbit.Count;
             pPoint.X = m_list_userctrl_UI_Inputbit[0].Width + 50;
-            pPoint.Y = 0;
+            pPoint.Y = iTop;    // 0
             if (iTotalItem > 0)
             {
                 for (int iCount = 0; iCount < iTotalItem; iCount++)
@@ -167,7 +192,7 @@ namespace GT_App
             //Add robot Station----------------------------------------------------------------------------------
             iTotalItem = m_list_userctrl_UI_RobotGoto.Count;
             pPoint.X = m_list_userctrl_UI_Inputbit[0].Size.Width + 50; // + m_list_userctrl_UI_Outputbit[0].Size.Width + 50;
-            pPoint.Y = 0;
+            pPoint.Y = iTop;    // 0
 
             for (int iCount = 0; iCount < iTotalItem; iCount++)
             {
@@ -178,6 +203,8 @@ namespace GT_App
                 //Set point for user control position (next user control)
                 pPoint.Y += m_list_userctrl_UI_RobotGoto[iCount].Height;
             }
+
+            if (m_bShowHeaders == true) Add_Headers();
         }
 
         //Add user control: Input Bit/////////////////////////////////////////////////////////////////////////////////////////////////////////////
