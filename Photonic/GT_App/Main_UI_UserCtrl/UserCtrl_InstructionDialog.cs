@@ -204,5 +204,12 @@ namespace GT_App
             dlg.ShowDialog();
             dlg.Dispose();
         }
+
+        private void btn_AlignmentData_Click(object sender, EventArgs e)
+        {
+            AlignmentData_Dlg dlg = new AlignmentData_Dlg();
+            dlg.ShowDialog();
+            dlg.Dispose();
+        }
     }
 }

@@ -85,6 +85,7 @@
     <Compile Include="MessageBox_Custom\MessageBox_OP85_VisionResult.Designer.cs">
       <DependentUpon>MessageBox_OP85_VisionResult.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modules\Module_AlignmentData.cs" />
     <Compile Include="Modules\Module_OP100_Buffer.cs" />
     <Compile Include="Modules\Module_FwdConv.cs" />
     <Compile Include="Modules\Module_OP110_HotBlower.cs" />

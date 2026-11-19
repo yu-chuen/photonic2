@@ -31,6 +31,7 @@ namespace StaticCoreLib
         public Module_FwdConv                       m_Module_FwdConv_OP100          = null;
 		public Module_OP110_HotBlower				m_Module_OP110_HotBlower        = null;
         public Module_FwdConv                       m_Module_FwdConv_OP110          = null;
+        public Module_AlignmentData                 m_Module_AlignmentData          = null;
 		
         public InterfaceCards						m_InterfaceCards                    = null;
         public MachineInfo							m_MachineInfo                       = new MachineInfo();
@@ -220,6 +221,8 @@ namespace StaticCoreLib
                 return false;
             }
 
+            // Alignment Data
+            m_Module_AlignmentData = new Module_AlignmentData(this);
             //Monitor Input-------------------------------------------------------------------------------------------------
             //note: please put this after module control panel because monitor class utilize control panel pointer
             m_MonitorInput = new MonitorInput(this);

@@ -367,6 +367,12 @@
     <Compile Include="Main_UI_UserCtrl\UserCtrl_UI_FlagBox.Designer.cs">
       <DependentUpon>UserCtrl_UI_FlagBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manual_Pages\AlignmentData_Dlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manual_Pages\AlignmentData_Dlg.Designer.cs">
+      <DependentUpon>AlignmentData_Dlg.cs</DependentUpon>
+    </Compile>
     <Compile Include="Manual_Pages\Io.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -764,6 +770,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main_UI_UserCtrl\UserCtrl_UI_FlagBox.resx">
       <DependentUpon>UserCtrl_UI_FlagBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual_Pages\AlignmentData_Dlg.resx">
+      <DependentUpon>AlignmentData_Dlg.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manual_Pages\Io.resx">
       <DependentUpon>Io.cs</DependentUpon>

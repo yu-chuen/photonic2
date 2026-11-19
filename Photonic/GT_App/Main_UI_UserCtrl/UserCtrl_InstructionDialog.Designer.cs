@@ -39,11 +39,13 @@
             this.btn_Login = new System.Windows.Forms.Button();
             this.btn_Initialize = new System.Windows.Forms.Button();
             this.btn_About = new System.Windows.Forms.Button();
+            this.btn_AlignmentData = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btn_AlignmentData);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btn_StationControl);
@@ -193,9 +195,22 @@
             this.btn_About.UseVisualStyleBackColor = false;
             this.btn_About.Click += new System.EventHandler(this.btn_About_Click);
             // 
+            // btn_AlignmentData
+            // 
+            this.btn_AlignmentData.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_AlignmentData.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_AlignmentData.Location = new System.Drawing.Point(15, 635);
+            this.btn_AlignmentData.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_AlignmentData.Name = "btn_AlignmentData";
+            this.btn_AlignmentData.Size = new System.Drawing.Size(162, 53);
+            this.btn_AlignmentData.TabIndex = 16;
+            this.btn_AlignmentData.Text = "Alignment Data";
+            this.btn_AlignmentData.UseVisualStyleBackColor = false;
+            this.btn_AlignmentData.Click += new System.EventHandler(this.btn_AlignmentData_Click);
+            // 
             // UserCtrl_InstructionDialog
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.groupBox1);
@@ -223,5 +238,6 @@
 		private System.Windows.Forms.Button btn_StationControl;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_AlignmentData;
     }
 }
